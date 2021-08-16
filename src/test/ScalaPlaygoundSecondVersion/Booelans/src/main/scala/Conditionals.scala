@@ -1,7 +1,6 @@
 import Conditionals.a
 
 import scala.Console.println
-import scala.Predef.println
 import scala.io.StdIn.readLine
 
 object Conditionals extends App {
@@ -34,19 +33,26 @@ object Conditionals extends App {
     val b = 33333 //defined only inside these curly braces
     if (a>500) println("over 500")
     //else (a <500) println("over 100 but less than 500")}
-
- //ask for name
- //ask for how long they have worked
- //ask for monthly wage
- //calculate Xmas bonus if they have worked over 2 years
- //if more than 2 years bonus is +15%
- //if more than 5 years bonus is 1000 euros
 }
-val d = if (a > 10)  10 else a // so d is capped at 10 otherwise its a value of 10
+
+private val d = if (a > 10)  10 else a // so d is capped at 10 otherwise its a value of 10
 println(d)
 
 if (a.toInt % 2 == 0) println(s"whole part of $d is even")
 else println(s"$d is odd number")
+
+if (a > 50) {
+  println(s"a is greater than 50, so a is actually $a")}
+  else if (a < 50) {
+    println(s"a is less than 50, so a is actually $a")
+  } else {
+    print(s"a is exactly 50, just to double check it: $a")
+  //with multi branches it's easy to make a mistake
+}
+
+val b = readLine("ok, give me a b").toInt
+val minValue = if (a < b) a else b //of course it covers a == b
+println(s"out of $a and $b the smallest is $minValue")
 
 
 
