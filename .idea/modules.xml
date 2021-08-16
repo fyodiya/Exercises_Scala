@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ScalaPlayground2021Aug.iml" filepath="$PROJECT_DIR$/ScalaPlayground2021Aug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" filepath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" />
     </modules>
   </component>
 </project>

@@ -5,7 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="declaring data type in Scala">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug/src/main/scala/Booleans.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScalaPlayground2021Aug.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +48,30 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ScalaPlayground2021Aug" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -30,6 +85,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\test\ScalaPlayground2021Aug\src\main\scala" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scala REPL_mine" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="ScalaPlayground2021Aug" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="javaOptions" value="-Djline.terminal=NONE" />
+      <option name="myConsoleArgs" value="-usejavacp" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -47,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1629046007130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="declaring data type in Scala">
+      <created>1629046503948</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629046503948</updated>
+    </task>
+    <task id="LOCAL-00003" summary="declaring data type in Scala">
+      <created>1629046563639</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629046563639</updated>
+    </task>
+    <task id="LOCAL-00004" summary="declaring data type in Scala">
+      <created>1629046672749</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629046672749</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -60,6 +159,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sample project&#10;Exercise for Reading user input&#10;String Fun&#10;Test&#10;Added a comment" />
