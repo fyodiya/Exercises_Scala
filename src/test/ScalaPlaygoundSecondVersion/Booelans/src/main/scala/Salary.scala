@@ -28,4 +28,9 @@ object Salary extends App {
   }
     if (timeWorked > 2) println(s"omg, $userName your Xmas bonus will be 1000 euros!")
 
+  //TODO
+  if (a > 600) {
+  println("over 600")
+  println(a)
+}
 }

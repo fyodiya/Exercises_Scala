@@ -54,6 +54,10 @@ val b = readLine("ok, give me a b").toInt
 val minValue = if (a < b) a else b //of course it covers a == b
 println(s"out of $a and $b the smallest is $minValue")
 
+//why is minValue in Double?
+//since minValue could possibly be a double (from a), it has to be a double
+//if we wanted to be sure its integer we should put it in parenthesis and cast to integer
+
 
 
 
