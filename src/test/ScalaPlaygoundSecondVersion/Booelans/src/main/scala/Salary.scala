@@ -12,22 +12,20 @@ object Salary extends App {
   //if they aren't eligible for option you should say so
 
   println("what's your name?")
-  val userName = readLine ("What is your name friend?")
+  val userName = readLine ("What is your name?")
   //readLine will read user input until user presses Enter
   println(s"Great! Nice to meet you $userName!")
   val salary = readLine (s"How much do you earn $userName?")
   println("oh, thanks for the information")
   val timeWorked = readLine ("How many years have you worked at this place?").toInt
-  if (timeWorked < 2)
-    println(s"Oh $userName, sorry, you won't get a Xmas bonus")
-  else {
+  if (timeWorked >= 2) {
     if (timeWorked > 2) {
-      val userBonus = salary*0.15
+      val userBonus = salary * 0.15.toInt
       println("Congratulations " + userName + " your Xmas bonus will be 15% of " + salary)
     }
+  } else {
+    println(s"Oh $userName, sorry, you won't get a Xmas bonus")
   }
     if (timeWorked > 2) println(s"omg, $userName your Xmas bonus will be 1000 euros!")
-  }
-
 
 }
