@@ -1,3 +1,5 @@
+import Conditionals.a
+
 import scala.Console.println
 import scala.Predef.println
 import scala.io.StdIn.readLine
@@ -40,3 +42,12 @@ object Conditionals extends App {
  //if more than 2 years bonus is +15%
  //if more than 5 years bonus is 1000 euros
 }
+val d = if (a > 10)  10 else a // so d is capped at 10 otherwise its a value of 10
+println(d)
+
+if (a.toInt % 2 == 0) println(s"whole part of $d is even")
+else println(s"$d is odd number")
+
+
+
+
