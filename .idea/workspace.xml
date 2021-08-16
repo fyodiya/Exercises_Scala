@@ -5,40 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="declaring data type in Scala">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_6_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021-build.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug/src/main/scala/Booleans.sc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_6_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/modules/Booelans-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/modules/Booelans.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/sbt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/src/main/scala/Salary.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScalaPlayground2021Aug.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$67962918b4c33692dfba.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$7236b65a08b9fc9866e8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$cef5e8877c8626935e67.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$d5e74cd03bf8879ea495.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/src/main/scala/Conditionals.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/Booelans/src/main/scala/Conditionals.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +58,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug" />
