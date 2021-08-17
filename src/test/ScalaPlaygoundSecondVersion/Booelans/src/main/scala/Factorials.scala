@@ -3,9 +3,19 @@ import scala.io.StdIn.readLine
 object Factorials extends App {
   //TODO write code to calculate Factorial from user entry
 
-  val number = readLine ("Please enter a whole number for which you want to get a factorial").toInt
+  val number = readLine ("Please enter a whole number for which you want to get a factorial").trim.toString
+  println(s"we will calculate factorial of number $number")
+  var result = 1
+  for (n <= 2 to number) result *= n
+  //same as result = result * n
+  println(s"Factorial of $number is $result")
 
-  //we could use while loop or also for loop
+  {
+    var resultToo = number
+    for(n <- number-1 to 2 by -1) resultToo *= n
+    println(s"Factorial of $number is $resultToo")
+    //we could use while loop or also for loop
+  }
 
   //factorial of 1 is 1
   //of 2 is 1*2
@@ -17,7 +27,7 @@ object Factorials extends App {
   //and we will add a loop to multiply all the numbers together
   //then we will simply print out the results
 
-  
+
 
 
 
