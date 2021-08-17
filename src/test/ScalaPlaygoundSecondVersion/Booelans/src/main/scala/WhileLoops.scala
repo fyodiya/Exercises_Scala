@@ -6,7 +6,9 @@ println("Alice did")
 
   var i = 0
   while (i < 10) {
-    println(s"talking when i is $i")}
+    println(s"talking when i is $i")
+  i = i + 1 //increment the counter
+  }
 
   //so while loops run while the conditions in parethesis are true
 
