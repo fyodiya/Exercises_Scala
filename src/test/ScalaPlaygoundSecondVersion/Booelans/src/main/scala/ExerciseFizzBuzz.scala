@@ -49,6 +49,23 @@ for (n <- Range(0,10)) {
   for (n <- 20 to 0 by -4) {
     println(s"n is $n")
   }
+ for (n <- Range(20,0,-4)){
+   println(s"n is $n")
+ }
+  //range works same as using "until and by"
+
+
+  //partial steps
+  //so double sized steps wouldn't be suitable for 2-step loop
+  //we could use while loop
+  //added {} to not pollute other N used in this file/sheet
+  {
+    var n = 0.0
+    while (n <= 10) {
+      println(s"n is $n")
+      n += 0.5
+    }
+  }
 
 
 
