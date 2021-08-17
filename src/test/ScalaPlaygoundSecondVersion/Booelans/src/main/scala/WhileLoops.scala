@@ -37,7 +37,10 @@ while (sum < 1000) {
 
 var userInput = ""
 var counter = 0
-while (userInput.startsWith("q")) {
+while (userInput.toUpperCase.startsWith("q")) {
+  //we need to negate the check so while userInput does not start with q
+  //while (userInput != "Y" { //very strictly only "Y will quit
+  // while (userInput.startsWith("Y" { now anything text input starting with Y or y will quit )"
   counter += 1
   userInput = readLine("Do you want to quit? Y/N")
   counter += 1
@@ -45,7 +48,8 @@ while (userInput.startsWith("q")) {
   userInput = readLine("Do you want to quit? Y/N")
 }
 
-
+//we can also combine conditions inside loop check
+  println("Starting another loop")
 
 
 
