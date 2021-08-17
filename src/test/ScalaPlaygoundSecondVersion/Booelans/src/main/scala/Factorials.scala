@@ -6,7 +6,7 @@ object Factorials extends App {
   val number = readLine ("Please enter a whole number for which you want to get a factorial").trim.toString
   println(s"we will calculate factorial of number $number")
   var result = 1
-  for (n <= 2 to number) result *= n
+  for (n <- 2 to number) result *=n
   //same as result = result * n
   println(s"Factorial of $number is $result")
 
@@ -16,6 +16,11 @@ object Factorials extends App {
     println(s"Factorial of $number is $resultToo")
     //we could use while loop or also for loop
   }
+
+  var addResult = 0 //for addition we would add zero
+  for (n <- 1 to number) addResult += n
+  println(s"sum of numbers from 1 to $number is $addResult")
+
 
   //factorial of 1 is 1
   //of 2 is 1*2
