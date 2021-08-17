@@ -32,9 +32,23 @@ for (i <- 1 until 100) {
 
 
  }
+//Range gives us numbers on demand
+for (n <- Range(0,10)) {
+  println(s"n is $n")
+}
 
+  //we can also add another step to range
+  for (n <- Range(0,10,2)) {
+    println(s"n is $n")
+  }
+//if we didn't want 10 we would add until instead of 2
+  for (n <- 0 to 10 by 2) {
+    println(s"n is $n")
+  }
 
-
+  for (n <- 20 to 0 by -4) {
+    println(s"n is $n")
+  }
 
 
 
