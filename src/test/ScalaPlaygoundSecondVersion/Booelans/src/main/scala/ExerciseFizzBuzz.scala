@@ -20,7 +20,18 @@ for (i <- 1 until 100) {
 
 
 }
+ for (number <- 1 to 100) {
+   var myText = ""
 
+   if (number % 5 == 0) myText = "Fizz"
+   if (number % 7 == 0) myText = "Buzz"
+   if ((number % 5 != 0) && (number % 7 != 0)) myText = "FizzBuzz"
+    if ((number % 5 == 0) && (number % 7 == 0))
+      println(s"$number")
+
+
+
+ }
 
 
 
