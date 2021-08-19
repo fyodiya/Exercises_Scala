@@ -1,4 +1,4 @@
-object ToLoopsScala extends App {
+object ForLoops2ndtry extends App {
   //we can do everything while loops but for loops offer us convenience
 
   //we use for loops when we know exact number of items to go through
@@ -13,7 +13,7 @@ object ToLoopsScala extends App {
   for (c <- myName) {
     println(s"Current letter is $c")
   }
-    //there is a convention to use _ when value isn't important
+  //there is a convention to use _ when value isn't important
 
   for (_ <- 0 until 5) {
     println("Doing something 5 times but I don't really care about the number")
@@ -22,8 +22,8 @@ object ToLoopsScala extends App {
   //for loop variants you should use short names or characters
 
   myName.foreach(println)
-//we are saying for each individual number of myName
-for (char <- myName) println(char) //same as above
+  //we are saying for each individual number of myName
+  for (char <- myName) println(char) //same as above
 
   //one cycle is called "an iteration"
 
@@ -34,8 +34,4 @@ for (char <- myName) println(char) //same as above
       println(s"$number is odd.")
     }
   }
-
-
-
-
 }
