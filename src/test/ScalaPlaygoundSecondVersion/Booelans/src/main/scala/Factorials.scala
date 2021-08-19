@@ -12,7 +12,7 @@ object Factorials extends App {
 
   {
     var resultToo = number
-    for(n <- number-1 to 2 by -1) resultToo *= n
+    for(n <- number -1 to 2 by -1) resultToo *= n
     println(s"Factorial of $number is $resultToo")
     //we could use while loop or also for loop
   }
