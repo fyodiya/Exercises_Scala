@@ -55,7 +55,7 @@ def orderFood(dish: String, waiter: String="William") = {
 
   //another way of previous line
   def add(a: Int, b: Int): { //must be made into Int somehow
-    val result = a + b
+    val result = a+b
     println(s"Wow, $a + $b = $result")
     result //so whatever is in the last line of function will be returned automatically
   //no need for return
