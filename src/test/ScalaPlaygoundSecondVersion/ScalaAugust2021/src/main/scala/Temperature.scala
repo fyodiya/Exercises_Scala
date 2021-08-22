@@ -22,14 +22,17 @@ object Temperature extends App {
 
   def funnyString(prefix: String, mainText: String, multiplier: Int) :String= {
     prefix+mainText+multiplier
-
   } :String
-  println(funnyString(ba,na,5 ))
+  println(funnyString("ba","na",5 ))
 
+  //a very thin wrapper around Math.pow
   def lazyPower(num: Double, power: Double=2):Double = Math.pow(num, power)
-  println(lazyPower(5))
+  println(lazyPower(5)) //so here 2 is given automatically
   println(lazyPower(5,3))
-  println(lazyPower()) //
+  //default values should come after the specified ones
+  println(lazyPower())
+  //so 10 to 2nd power is squared is 100
+
 
   val myFun: Int => Int = a => a*5 //alternated way of how to define the function
   println(myFun(10))
