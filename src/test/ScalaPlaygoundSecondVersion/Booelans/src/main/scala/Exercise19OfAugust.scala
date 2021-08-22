@@ -42,7 +42,5 @@ def temperatureResult (temperatureInCelsius: Double): Double = {
   val storedResult = myFunToo(100)
   println(storedResult)
 
-
-
 }
 
