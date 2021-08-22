@@ -75,16 +75,19 @@ object Functions extends App {
     val multiplied = (n*multiplier).round
 //    0.0 //so we make it double
     //println(multiplied)
-    val result = multiplied / multiplier
-    println(result)
-    result
-
+    //val result = multiplied / multiplier
+    //println(result)
+    //result
+    (n*multiplier).round/multiplier
   }
   println(Math.PI)
   println(myRound(Math.PI, 2))
   println(myRound(Math.PI, 4))
   //we're testing our function
 //it works, but only for 3.14
+  println(myRound(10.23325, 2))
+
+
 
 
 println(myRound(3.14159, 2))
