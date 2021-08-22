@@ -28,4 +28,38 @@ val myName = "Valdis"
 for (char <- myName) println(char) //same command as the one above it
   //shorter syntax but the code is completely fine
 
+  for (n <- Range(0,10)) {
+    println(s"n is $n")
+    // so Range gives us number on demand, in certain range
+  }
+
+  for (n <- Range(0,10,2)) {
+    println(s"n is $n")}
+  //we can also add a step to our range
+
+  for (n <- 0 to 10 by 2) {
+    println(s"n is $n")
+  }
+  //if we wouldn't want 10 we would have used UNTIL instead of TO
+
+  for (n <- 20 to 0 by -4) {
+    println (s"n is $n")
+  }
+  //using range is like using UNTIL
+
+  //BY indicates step size, it could be negative or positive
+
+  //for (n <- 0 to 10 by 0.5) we cannot use steps like that, we must use while loops
+  //partial steps are not suitable for FOR LOOPS
+
+ {
+  var n = 0.0
+  while (n <= 10) {
+    println(s"n is $n")
+    n += 0.5
+    }
+  }
+
+
+
 }
