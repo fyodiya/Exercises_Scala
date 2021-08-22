@@ -13,4 +13,26 @@ object Factorials extends App {
     //we will start with 1, not 0 because than it would be only zeros
   println(s"Factorial of $number is $result")
 
+//we could go the other way, too
+  var resultToo = number
+  for (n <- number to 2 by -1) resultToo *= n
+  println(s"factorial for $number is $resultToo")
+
+  var resultAgain = 1
+  var n = 2
+  while (n < number) {
+    resultAgain *= n
+    n += 1
+  }
+  println(s"Factorial again of $number is $resultAgain")
+
+  var addResult = 0 //for addition we will do 0
+  for (n <- 1 to number) addResult += n
+  println(s"Sum of numbers from 1 to $number is $addResult")
+  // there is a Gauss formula for that
+  println((1  to number).sum)
+
+
+  //more code isn't necessarily easier to read
+
 }
