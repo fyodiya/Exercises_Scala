@@ -1,0 +1,3 @@
+class FizzBuzzExercise extends App {
+
+}
