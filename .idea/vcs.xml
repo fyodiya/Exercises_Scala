@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/FizzBuzz" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/test/scala" vcs="Git" />
   </component>

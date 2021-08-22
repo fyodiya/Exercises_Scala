@@ -7,13 +7,16 @@
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="declaring data type in Scala">
       <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021-build.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/ScalaAugust2021/Playground.sc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/Variables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass/src/main/scala/ExerciseXmasBounus.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass/src/main/scala/ExerciseXmasBounus.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +52,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
+        <option value="Scala Object" />
       </list>
     </option>
   </component>
@@ -68,6 +72,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala" />
   </component>
   <component name="RecentsManager">
