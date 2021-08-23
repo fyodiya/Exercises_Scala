@@ -27,12 +27,12 @@ def temperatureResult (temperatureInCelsius: Double): Double = {
     prefix+mainText+multiplier
 
   } :String
-  println(funnyString(ba,na,5 ))
+  println(funnyString("ba","na",5 ))
 
   def lazyPower(num: Double, power: Double=2):Double = Math.pow(num, power)
   println(lazyPower(5))
   println(lazyPower(5,3))
-  println(lazyPower()) //
+  println(lazyPower(9)) //
 
   val myFun: Int => Int = a => a*5 //alternated way of how to define the function
   println(myFun(10))
