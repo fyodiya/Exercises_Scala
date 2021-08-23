@@ -13,17 +13,12 @@ object Population extends App {
       }.toInt
       val years : Unit= {(targetPopulation - finalPopulation) / (pDelta + percentage/100)
         if (finalPopulation >= targetPopulation) {
-          var resultYears = years
+          resultYears //define it somehow
           println(s"the target population will be reached in $resultYears years")}
-        else {
+        else
           println("target population hasn't been reached yet")
-          val resultYears: Unit = (finalPopulation = targetPopulation + 1)
+          val resultYears: Unit = finalPopulation = targetPopulation + 1
           println(s"the target population will be reached in $resultYears years")}
-        else {}
-        }
-
-
-
             println("The city will NEVER reach target population")
       }
   println(getCityYear(1000,2,50,1200)) // should print 3
