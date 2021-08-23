@@ -6,24 +6,28 @@ object Population extends App {
   //targetPopulation: Int population we want to reach
 
     println("Function to calculate city growth")
-    def getCityYear(p0: Int, pDelta: Int, targetPopulation: Int): Unit = {
-      val finalPopulation: Int = p0 + (targetPopulation / pDelta)
-        if (finalPopulation <= 0) if (finalPopulation < 0)
-          println("The city will NEVER reach target population") else {
-          println(s"the target population will be reached in the year $finalPopulation")
-        } else {
-          do {
-            if (finalPopulation <= 0) {
-              if (finalPopulation < 0)
-                println("The city will NEVER reach target population")
-            } else println(s"the target population will be reached in the year $finalPopulation")
-          } while (finalPopulation > targetPopulation)
-        }
-      }
+    def getCityYear(p0: Int, percentage: Double, pDelta: Int, targetPopulation: Int): Unit = {
 
-      println(getCityYear(1000, 50, 1200)) // should print 3
-      println(getCityYear(1000, -50, 1200)) // should print -1
-      println(getCityYear(1500000, 10000, 2000000)) // should print 10
+      var finalPopulation: Double = {
+        (p0 + pDelta + p0 * percentage / 100)
+      }.toInt
+      val years : Unit= {(targetPopulation - finalPopulation) / (pDelta + percentage/100)
+        if (finalPopulation >= targetPopulation) {
+          var resultYears = years
+          println(s"the target population will be reached in $resultYears years")}
+        else {
+          var resultYears: Unit = (finalPopulation = targetPopulation + 1)
+          println(s"the target population will be reached in $resultYears years")}
+        else
+        }
+
+
+
+            println("The city will NEVER reach target population")
+      }
+  println(getCityYear(1000,2,50,1200)) // should print 3
+  println(getCityYear(1000,2,-50,1200)) // should print -1
+  println(getCityYear(1500000, 2.5,10000,2000000)) // should print 10
 
     //we want to return the year city will reach targetPopulation
     //or we return -1 if the city will NEVER reach the population
