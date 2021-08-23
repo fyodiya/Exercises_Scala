@@ -30,7 +30,7 @@ object Temperature extends App {
   println(lazyPower(5)) //so here 2 is given automatically
   println(lazyPower(5,3))
   //default values should come after the specified ones
-  println(lazyPower())
+  println(lazyPower(8))
   //so 10 to 2nd power is squared is 100
 
 
