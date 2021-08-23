@@ -32,7 +32,7 @@ object Conditionals extends App {
 
   //we can keep branching actually
   if (a > 100) {
-    val b = 33333 // b is local only within these ineer curly bracers
+    val b = 33333 // b is local only within these inner curly bracers
     if (a > 500) println("Over 500") //so branch inside a branch
     else println("over 100 but less or equal to 500")
     println(s"WE can print b just for heck of it $b")

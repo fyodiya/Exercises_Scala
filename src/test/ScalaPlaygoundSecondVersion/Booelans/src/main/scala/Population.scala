@@ -9,8 +9,15 @@ object Population extends App {
 
   println("Function to calculate city growth")
   def getCityYear (p0: Int, growthPercentage: Int, pDelta: Int, targetPopulation: Int) = {
-    val result()
+    val yearTargetPopulation:Unit = (p0 + (targetPopulation / pDelta))
+    if (targetPopulation > 0) {
+      println(s"the target population will be reached in the year $yearTargetPopulation")
+    }
+    else if (targetPopulation < 0)
+      println("The city will NEVER reach target population")
+    else (targetPopulation )
   }
+
 
 
   //we want to return the year city will reach targetPopulation
@@ -18,9 +25,8 @@ object Population extends App {
   //it is a little bit tricky because we do not want to use return statements
   //we want to return the last line only
   //so you probably want to use some variable to hold the result
-  while(counter < 0){
 
-  }
+
   //you will need a loop - while probably
   //you will need some if else statements
   //if we write comments /**
