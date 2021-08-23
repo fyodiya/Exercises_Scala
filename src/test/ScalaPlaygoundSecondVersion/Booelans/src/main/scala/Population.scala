@@ -1,5 +1,3 @@
-import WhileLoops.counter
-
 object Population extends App {
   //write a function cityPop which takes the following 4 parameters
   //p0: Int how many people are in the beginning
@@ -8,17 +6,14 @@ object Population extends App {
   //targetPopulation: Int population we want to reach
 
   println("Function to calculate city growth")
-  def getCityYear (p0: Int, growthPercentage: Int, pDelta: Int, targetPopulation: Int) = {
-    val yearTargetPopulation:Unit = (p0 + (targetPopulation / pDelta))
+  def getCityYear (p0: Int, pDelta: Int, targetPopulation: Int) = {
+    val yearTargetPopulation:Unit = p0 + (targetPopulation / pDelta)
     if (targetPopulation > 0) {
       println(s"the target population will be reached in the year $yearTargetPopulation")
     }
     else if (targetPopulation < 0)
       println("The city will NEVER reach target population")
-    else (targetPopulation )
   }
-
-
 
   //we want to return the year city will reach targetPopulation
   //or we return -1 if the city will NEVER reach the population
@@ -46,11 +41,8 @@ object Population extends App {
     9000 //FIXME
   }
 
-  println(getCityYear(1000,2,50,1200)) // should print 3
-  println(getCityYear(1000,2,-50,1200)) // should print -1
+  println(getCityYear(1000, 50,1200)) // should print 3
+  println(getCityYear(1000, -50,1200)) // should print -1
   println(getCityYear(1500000,2.5,10000,2000000)) // should print 10
-
-
-
 
 }
