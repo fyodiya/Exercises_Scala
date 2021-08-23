@@ -7,7 +7,7 @@ object Population extends App {
   //delta: Int - how many people emigrate/immigrate each year
   //targetPopulation: Int population we want to reach
 
-  println("function to calculate city growth")
+  println("Function to calculate city growth")
   def getCityYear (p0: Int, growthPercentage: Int, pDelta: Int, targetPopulation: Int) = {
     val result()
   }
