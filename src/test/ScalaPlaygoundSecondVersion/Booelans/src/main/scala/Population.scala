@@ -18,9 +18,8 @@ object Population extends App {
         else {
           println("target population hasn't been reached yet")
           val resultYears: Unit = (finalPopulation = targetPopulation + 1)
-          println(s"the target population will be reached in $resultYears years")
-        }
-        else
+          println(s"the target population will be reached in $resultYears years")}
+        else {}
         }
 
 
