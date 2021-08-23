@@ -1,33 +1,40 @@
 object Inflation extends App {
-  def inflationCalculator(startingPrice: Double, inflationPercentage: Double, targetPrice: Double): Unit = {
-    //of course we can use formula
-    var yearCounter = 0 //we need to return integer in the result of our method
-    var currentPrice = startingPrice
-    if (currentPrice < startingPrice) {
-      return -1 //so called early return in functions
+  //of course for this we could just use a formula
+  //we can make a little helper function
+  def nextYear(currentPrice: Double, inflationPercentage: Double ): Double = currentPrice * (1 + inflationPercentage / 100)
+
+  def inflationCalculator(startingPrice: Double, inflationPercentage: Double, targetPrice: Double): Int = {
+    var yearCounter = 0
+    var currentPrice = nextYear(startingPrice, inflationPercentage)
+    var isJobFinished = false //another common technique is to create extra flags
+
+    if (currentPrice < startingPrice) { //equal price means we stagnate, less means we never reach target
+      //we would like to return -1
+      yearCounter = -2
+      //        return yearCounter //this is possible in Scala but discouraged to use early return
+      isJobFinished = true //this is a bit ugly but it works
+    } else if (currentPrice == startingPrice) {
+      println("Stagnation!")
+      yearCounter = -1 //so we can code negative returns
+      isJobFinished = true
     }
-    while (currentPrice < targetPrice) {
-      currentPrice *= (1 + inflationPercentage / 100)
-      yearCounter += 1
-      println(s"after year $yearCounter  price is $currentPrice")
+    while (!isJobFinished && currentPrice < targetPrice) {
+      //      currentPrice *= (1 + inflationPercentage / 100) // same as currentPrice = currentPrice * (inflationPercentage*100)
+      currentPrice = nextYear(currentPrice, inflationPercentage)
+      yearCounter += 1 //one has passed same as yearCounter = yearCounter + 1
+      println(s"After year $yearCounter price is $currentPrice")
     }
-    var isJobFinished = false
-    if (currentPrice < targetPrice) {
-      yearCounter = -1
-      return yearCounter
-    }
-    isJobFinished = true
+
+    yearCounter //this is always returned with some value
   }
-  while (!isInstanceOf && currentPrice  < targetPrice)
-    currentPrice
 
+  inflationCalculator(200, 8, 400)
 
-
-    }
-    yearCounter //this is always returned with some results, it always comes last, not in the middle or somewhere else
-
-    println(inflationCalculator(200, 4, 400))
-  }
-
+  //this should take roughly 18 years if I remember my rule of 72 correctly
+  //  println(inflationCalculator(200, 4, 400))
+  //what do we do if we can expect negative inflation?
+  //we want to return - 1 when we have deflation
+  println(inflationCalculator(150, -0.7, 200))
+  println(inflationCalculator(80, 0, 190))
 
 }
