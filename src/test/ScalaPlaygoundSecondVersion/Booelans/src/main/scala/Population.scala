@@ -6,8 +6,8 @@ object Population extends App {
   //targetPopulation: Int population we want to reach
 
   println("Function to calculate city growth")
-  def getCityYear (p0: Int, pDelta: Int, targetPopulation: Int) = {
-    val yearTargetPopulation:Unit = p0 + (targetPopulation / pDelta)
+  def getCityYear (p0: Int, percentage: Double, pDelta: Int, targetPopulation: Int): Unit = {
+    var yearTargetPopulation:Unit = p0 + (targetPopulation / pDelta)
     if (targetPopulation > 0) {
       println(s"the target population will be reached in the year $yearTargetPopulation")
     }
@@ -15,34 +15,20 @@ object Population extends App {
       println("The city will NEVER reach target population")
   }
 
+  println(getCityYear(1000, 2.5, 50,1200)) // should print 3
+  println(getCityYear(1000,2.5, -50,1200)) // should print -1
+  println(getCityYear(1500000,2.5,10000,2000000)) // should print 10
+
   //we want to return the year city will reach targetPopulation
   //or we return -1 if the city will NEVER reach the population
   //it is a little bit tricky because we do not want to use return statements
   //we want to return the last line only
   //so you probably want to use some variable to hold the result
 
-
   //you will need a loop - while probably
   //you will need some if else statements
-  //if we write comments /**
-  //those are so called ScalaDoc style comments and they can be used by automatic tools to create documentation
 
-  // */
-
-  /**
-   * getCityYear
-   * @param p0 - original City population
-   * @param percentage - yearly growth rate in percentages
-   * @param delta - how many people immigrate(+)/emigrate to the city each year
-   * @param targetPopulation - population we want to reach
-   * @return number of years to reach , -1 if not reachable
-   */
-  def getCityYear(p0: Int, percentage: Double, delta: Int, targetPopulation: Int):Int = {
-    9000 //FIXME
-  }
-
-  println(getCityYear(1000, 50,1200)) // should print 3
-  println(getCityYear(1000, -50,1200)) // should print -1
-  println(getCityYear(1500000,2.5,10000,2000000)) // should print 10
+  //def getCityYear(p0: Int, percentage: Double, delta: Int, targetPopulation: Int):Int = {
+    9000 //
 
 }
