@@ -1,23 +1,19 @@
 object Population4thTry extends App {
-  object Population extends App {
     //write a function cityPop which takes the following 4 parameters
     //p0: Int how many people are in the beginning
     //percentage: Int - yearly growth rate in %
     //delta: Int - how many people emigrate/immigrate each year
     //targetPopulation: Int population we want to reach
-
     println("Function to calculate city growth")
-
     def getCityYear(p0: Int, percentage: Double, pDelta: Int, targetPopulation: Int): Unit = {
-      var finalPopulation: Double = {(p0 + pDelta + p0 * percentage / 100)}.toInt
-      var years: Unit = {
-        (targetPopulation - finalPopulation) / (pDelta + percentage / 100)
+      var finalPopulation: Int = {
+        p0 + pDelta + p0 * percentage / 100
+      }.toInt
+      var years = (targetPopulation - finalPopulation) / (pDelta + percentage / 100)
         if (finalPopulation >= targetPopulation) {
           var resultYears = 0
-          println(s"the target population will be reached in $resultYears years")
-        }
-        else
-          println("target population hasn't been reached yet")
+          println(s"the target population will be reached in $resultYears years")}
+      else {
         val resultYears: Unit = finalPopulation = targetPopulation + 1
         println(s"the target population will be reached in $resultYears years")
       }
@@ -36,10 +32,6 @@ object Population4thTry extends App {
 
     //you will need a loop - while probably
     //you will need some if else statements
-
-    //def getCityYear(p0: Int, percentage: Double, delta: Int, targetPopulation: Int):Int
-
-  }
 
 
 }
