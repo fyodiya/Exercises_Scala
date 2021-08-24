@@ -1,9 +1,9 @@
 object Population3rdTry extends App {
-  def nextYear (p0: Int, pDelta: Int, percentage: Double, targetPopulation: Int) = targetPopulation - (p0 + pDelta + percentage/100)
+  def nextYear (p0: Int, pDelta: Double, percentage: Double, targetPopulation: Int) = targetPopulation - (p0 + pDelta + percentage/100)
 
-  def getCityYear(p0: Int, pDelta: Int, percentage: Double, targetPopulation: Int) = {
+  def getCityYear(p0: Int, pDelta: Double, percentage: Double, targetPopulation: Int) = {
     var yearCounter = 0
-    var currentPopulation = nextYear(p0: Int, pDelta: Int, percentage: Double, targetPopulation: Int)
+    var currentPopulation = nextYear(p0: Int, pDelta: Double, percentage: Double, targetPopulation: Int)
     var isTargetPopulationAccomplished = false
 
     if (currentPopulation < targetPopulation) {
@@ -15,11 +15,10 @@ object Population3rdTry extends App {
       isTargetPopulationAccomplished = true
     }
      while (!isTargetPopulationAccomplished && currentPopulation < targetPopulation) {
-       currentPopulation = nextYear(p0: Int, pDelta: Int, percentage: Double, targetPopulation: Int)
+       currentPopulation = nextYear(p0: Int, pDelta: Double, percentage: Double, targetPopulation: Int)
        yearCounter += 1
        println(s"After $yearCounter years the city population will reach target population")
      }
-
   }
 
   println(getCityYear(1000, 2, 50, 1200)) // should print 3
