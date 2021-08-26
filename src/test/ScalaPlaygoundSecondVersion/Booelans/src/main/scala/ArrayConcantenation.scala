@@ -10,4 +10,10 @@ object ArrayConcantenation extends App {
 
 val sortedNumbers = numbersFromRange.sorted
   println(numbersFromRange.mkString(","))
+
+
+
+
+
+
 }
