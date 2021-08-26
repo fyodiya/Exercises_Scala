@@ -1,53 +1,39 @@
-import sun.security.util.Length
+import scala.util.Random.nextInt //so I want to use specific function from Random library
 
-import scala.io.StdIn.readLine
-import scala.util.Random.nextInt
 object DiceCollector extends App {
-
   println("Testing dice throws")
-for (n <- 0 to 10) println(nextInt(6))
-  val singleDice = for (n <- 0 to 20) yield nextInt(6)+1
+  for (n <- 0 to 30) println(nextInt(6))
+  val singleDice = for (n <- 0 to 20) yield nextInt(6)+1 //n is not used we could have called it _
   println(singleDice.mkString(","))
-  println(singleDice.count(_ == 6)) //syntax for counting specific occurrences
+  println(singleDice.count(_ == 6)) //syntax or for counting specific occurences
 
-
-
-  //TODO create a value for number of dice throws (or ask user for a number)
-  val numThrows = 1_000
+  //TODO create a value for number of dice throws (or ask user for number)
+  val numThrows = 1_000_000
   //TODO create sequence of doubleDice throws
-  val doubleThrow = for (_ <- 0 until numThrows) yield nextInt(6)+1+nextInt(6)
-  println(doubleThrow.slice(0,30)mkString(","))
+  val dicePerThrow = 6
 
-  {def throwDice(howMany: Int = 2) = {
-    var result = 0
-    for (_ <- 0 until howMany) result += nextInt(6)+1
+  def throwDice(howMany:Int = 2):Int = {
+    var result= 0
+    for (_ <- 0 until howMany) result += nextInt(6)+1 //so howMany times we are adding a dice throw to our result
+    4 //chosen by random dice :)
     result
-  }}
+  }
+  //  val doubleDice = for (_ <- 0 until numThrows) yield nextInt(6)+1+nextInt(6)+1
+  val doubleDice = for (_ <- 0 until numThrows) yield throwDice(dicePerThrow) //by default we throw 2 dice
+  println(doubleDice.slice(0,30).mkString(","))
+  println(s"Min throw is ${doubleDice.min}")
+  println(s"Max throw is ${doubleDice.max}")
+  val allThrowsSum = doubleDice.sum
+  println(s"All throws summed is $allThrowsSum")
+  val throwsAvg = allThrowsSum.toDouble / doubleDice.length
+  println(s"Average throw has the value $throwsAvg")
 
-  //TODO calculate sum, avg, as well as max, min (12 and 2)
-println(s"Min throw is ${doubleThrow.min}")
-println(s"Max throw is ${doubleThrow.max}")
-
-val allThrowSum = doubleThrow.sum
-println(s"All throw sum is $allThrowSum")
-val throwsAvg = allThrowSum/doubleThrow.length
-println(s"average throw is $throwsAvg")
-
-
-  //print number of times each number from 2 to 12 occurs in sequence
-val throwCounts = for (n <- 2 to 12) yield doubleThrow.count(_ == n)
+  //print number of times each number from 2 to 12 occurs in the sequence
+  val throwCounts = for (n <- dicePerThrow to dicePerThrow*6) yield doubleDice.count(_ == n) //so with yield I am saving each result of counting in a sequence
   println(throwCounts.mkString(","))
 
-
-  val numberOfDiceThrows = readLine ("Please enter number of dice throws")
-  val numberOfDiceThrowsSeq = numberOfDiceThrows.toArray.toSeq
-  val DiceThrowSum = numberOfDiceThrows.sum
-  val DiceThrowsMax = numberOfDiceThrows.max
-  val DiceThrowsMin = numberOfDiceThrows.min
-
-
-
-
-
-
+  for (n <- dicePerThrow to dicePerThrow*6) {
+    val cnt = doubleDice.count(_ == n)
+    println(s"$n occurs $cnt times")
+  }
 }
