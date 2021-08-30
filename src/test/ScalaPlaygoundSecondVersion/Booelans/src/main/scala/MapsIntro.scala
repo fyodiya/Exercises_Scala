@@ -1,4 +1,6 @@
 import scala.concurrent.Future.never.value
+import scala.math.Fractional.Implicits.infixFractionalOps
+import scala.math.Integral.Implicits.infixIntegralOps
 import scala.sys.SystemProperties.headless.key
 
 object MapsIntro extends App {
@@ -83,6 +85,34 @@ val mySeq = Seq(("one", 10), ("two", 20), ("three", 30))
   //or I could go other way
 val squareMap = (for (n <- myNumbers) yield (s"Number $n squared", n*n)).toMap
   println(squareMap)
+
+//we can also use maps to create maps
+  val squareArray = myNumbers.map(n => (s"Number $n squared", n*n))
+  val squareMapAgain = squareArray.toMap //we could have called toMap in the previous line, too
+  println(squareArray.length)
+  println(squareArray.mkString(","))
+  //so what is the difference between Array of Tuples and Map of String -> Int??
+  //Array you call by number index
+  //map you call directly, by using key
+
+  println(squareMapAgain.keys.mkString(",")) //getting an array of map keys
+  println(squareMapAgain.getOrElse("number 3 squared", -1))
+
+  val myKeys = squareMapAgain.keys.toArray
+  val myValues = squareMapAgain.values.toArray
+
+  println(muteMap)
+  //removing elements from the map
+  //remove key-value pairs by key only from the mutable map
+  muteMap -= "cars"
+  println(muteMap)
+  muteMap("birds") += 987 //I am updating that pair by adding to its previous value
+  println(muteMap)
+
+  //I can remove or add multiples
+
+  muteMap --= Seq ("birds", "dogs")
+println(muteMap)
 
 
 }
