@@ -30,4 +30,7 @@ object ExerciseAug31st extends App {
   val seq3 = Array(5, 0, 8, 3, 1,7, -55)
 
   println(getCommonElements(seq1, seq2, seq3))
+
+
 }
+
