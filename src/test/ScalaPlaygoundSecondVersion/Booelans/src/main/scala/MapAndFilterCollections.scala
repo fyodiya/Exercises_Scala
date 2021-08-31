@@ -29,4 +29,7 @@ println(divideBy4.mkString(","))
   just3.foreach(n => prettyPrint(_))
   just3.foreach(prettyPrint)
 
+
+  //when we write def this means we are creating our own tool/function/method to be used at some later code line
+  //we typically write functions/methods with def when we want to divide our work in smaller units, and also want to reuse our code
 }
