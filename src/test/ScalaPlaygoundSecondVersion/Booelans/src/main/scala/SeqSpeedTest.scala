@@ -75,5 +75,5 @@ object SeqSpeedTest extends App {
   val randomList = myRandoms.toList
   testSeqSorting(randomList)
 
-  //i chose random numbers because sequential numbers 1,2,3,4 may not give you a good picture of performance due to optimization
+  //I chose random numbers because sequential numbers 1,2,3,4 may not give you a good picture of performance due to optimization
 }

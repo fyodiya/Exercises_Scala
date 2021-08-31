@@ -1,4 +1,5 @@
 object SequenceOperations extends App {
+
   val myText = "A quick brown fox jumped over a sleeping dog"
   val myWords = myText.split(" ")
   println(s"My text has ${myText.length} characters")
@@ -19,10 +20,5 @@ object SequenceOperations extends App {
   for (number <- numbers) {
     println(s"I can do something with $number")
   }
-
-
-
-
-
 
 }

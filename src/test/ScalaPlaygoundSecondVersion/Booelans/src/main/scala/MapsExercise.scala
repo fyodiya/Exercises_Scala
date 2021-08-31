@@ -29,7 +29,4 @@ object MapsExercise extends App {
   }
   println(mutableLinkedHashMap)
 
-
-
-
 }

@@ -26,7 +26,7 @@ object Conditionals extends App {
     println(s"a is $a")
   } else {
     println("Sorry not quite 9000...")
-    println(s"a is $a") //here of course we could have simplied code by putting
+    println(s"a is $a") //here of course we could have simplified our code by putting
   }
   //println(s"a is $a") here
 
@@ -69,4 +69,5 @@ object Conditionals extends App {
   //if we wanted to be sure it is integer we could put it in parenthesis and cast to Integer
   val minValue =  (if (a < b) a else b ).toInt //of course this covers a == b
   println(s"out of $a and $b the smallest is $minValue")
+
 }

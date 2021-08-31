@@ -41,7 +41,7 @@ object CollectionsIntro extends App {
   val arr200 = for(number <- myArray) yield number * 200
   arr200.foreach(println)
 
-  //YIELD creates a new element for a new collection out of an exisitng collection
+  //YIELD creates a new element for a new collection out of an existing collection
   //it works together with FOR LOOP
 
   val myTexts = for (n <- myArray) yield s"Item in my collection is $n"
@@ -57,7 +57,7 @@ object CollectionsIntro extends App {
   //for each number we will create its square
   squares.foreach(println)
 
-  //the old way of doing it is by using loops (mutable sequences), but it's very time cosnuming
+  //the old way of doing it is by using loops (mutable sequences), but it's very time consuming
   //it is discouraged
 
   val evenSquare = squares.filter(n => n % 2 == 0) //for filtering we need to enter what the conditions for each element needs to be true
