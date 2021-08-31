@@ -37,7 +37,6 @@ println(greenMap.mkString(","))
 
   val greenKey = (for ((key,value) <- myFavourites if (value == "green")) yield key )
 
-
 // about getting values
   //what do we do if we're not sure?
   //we could use .contains --- or get option
