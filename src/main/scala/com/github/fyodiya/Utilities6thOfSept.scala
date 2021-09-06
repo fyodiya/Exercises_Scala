@@ -7,7 +7,7 @@ package com.github.fyodiya
 object Utilities6thOfSept {
   def add(a:Int, b:Int) = a+b
   //functions that are to be used by others should be named accordingly, to be understandable
-
+  val MYP = 3.1415926
 
 
 }
