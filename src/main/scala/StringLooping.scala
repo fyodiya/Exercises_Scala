@@ -17,18 +17,12 @@ object StringLooping extends App {
 
         println(s"current result is $resultText")
 
-
         println(processString("Got meal porridge", "ae"))
         val food = "Oat meal porridge"
         println(food)
         println(food.replace("a", "A"))
         println(food.replace("e", "E"))
-
-
-
-
       }
-
 
       resultText //FIXME for now we return original text
     }
@@ -38,6 +32,4 @@ object StringLooping extends App {
     println(processString(text="Baltijas Ceļš", uppercaseChars = "altijas")) //we want to see "BALTIJAS Ceļš"
 
     println("Valdis".replace("d", "D"))
-
-
 }
