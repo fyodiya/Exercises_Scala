@@ -11,6 +11,7 @@ class Geeks {
   override def toString: String = s"Object of class ${getClass.getName} custom name: $Name"
 //we have created our own custom string to be used whenever we use PRINTLN in this class
 }
+
 // Derived class
 // Using extends keyword
 class Geeks2 extends Geeks //so we use this feature EXTENDS also here
