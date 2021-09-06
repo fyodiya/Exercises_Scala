@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="declaring data type in Scala">
-      <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021/.idea/modules/HomeWorkExampleAug2021.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/ScalaAugust2021/Playground.sc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/scala/Variables.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="some changes in structure of my files">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Exercise6thOfSeptReadingArguments.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/MyTraits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UsingArguments.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UsingCommandArgumentsWithApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UsingOurOwnPackages.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/UsingTraits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/UsingUtilities.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities6thOfSept.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass/src/main/scala/ExerciseXmasBounus.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass/src/main/scala/ExerciseXmasBounus.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala/Variables.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/src/main/scala/Variables.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/StringMethods.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/StringMethods.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,23 +50,35 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Scala Worksheet" />
+        <option value="Scala Trait" />
         <option value="Scala Object" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1wde2SveSdJtmPVDD1QZEGOSrvU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -80,7 +90,14 @@
       <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\test\ScalaPlayground2021Aug\src\main\scala" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Exercise6thOfSeptReadingArguments">
+    <configuration name="Exercise6thOfSeptReadingArguments" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Exercise6thOfSeptReadingArguments" />
+      <module name="ScalaPlayground2021Aug" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scala REPL_mine" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="ScalaPlayground2021Aug" />
       <option name="allowRunningInParallel" value="false" />
@@ -95,6 +112,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Exercise6thOfSeptReadingArguments" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -133,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629046672749</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="some changes in structure of my files">
+      <created>1630916818229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630916818229</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,8 +178,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="sample project&#10;Exercise for Reading user input&#10;String Fun&#10;Test&#10;Added a comment" />
     <MESSAGE value="declaring data type in Scala" />
-    <option name="LAST_COMMIT_MESSAGE" value="declaring data type in Scala" />
+    <MESSAGE value="some changes in structure of my files" />
+    <option name="LAST_COMMIT_MESSAGE" value="some changes in structure of my files" />
   </component>
 </project>
