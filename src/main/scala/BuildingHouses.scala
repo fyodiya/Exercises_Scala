@@ -1,3 +1,5 @@
+import com.github.fyodiya.Utilities
+
 object BuildingHouses extends App {
   //we create a homersHouse object out of House class blueprint
   val homersHouse = new House("Homer's house", "central", true)

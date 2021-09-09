@@ -4,7 +4,7 @@
 // Base class
 class Geeks {
   var Name: String = "Ankita"
-  def simplePrint = println (s"name is $Name")
+  def simplePrint: Unit = println(s"name is $Name")
 
   //we can override existing methods that are built-in
   //e.g., having print give me my custom print
@@ -19,7 +19,7 @@ class Geeks2 extends Geeks //so we use this feature EXTENDS also here
   var Article_no: Int = 130
 
   // Method
-  def details()
+  def details
   {
     println("Author name: " +Name);
     println("Total numbers of articles: " +Article_no);
@@ -50,13 +50,13 @@ class Geeks2 extends Geeks //so we use this feature EXTENDS also here
       mainOb.simplePrint //I can skip parenthesis
 
       // Creating object of derived class
-      val ob = new Geeks2();
+      val ob = new Geeks2;
       ob.Name = "Loki"
-      ob.details();
+      ob.details
       ob.simplePrint
       println(ob)
 
-      val socketA = new Socket()
+      val socketA = new Socket
       val socketB = new Socket (1500)
       val socketC = new Socket(2000, 4000)
       println(socketA)
@@ -69,7 +69,6 @@ class Geeks2 extends Geeks //so we use this feature EXTENDS also here
 
       val vw = Car(make = "VW", color = "grey", model = "newest one")
       println(vw)
-
 
     }
   }

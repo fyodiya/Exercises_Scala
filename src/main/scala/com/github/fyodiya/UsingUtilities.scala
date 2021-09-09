@@ -8,4 +8,5 @@ object UsingUtilities extends App {
   val newCar = Car("Bugatti") //i had to import Car from _root_.Car because it is in the root of the project without package
 
   println(newCar)
+
 }

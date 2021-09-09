@@ -1,11 +1,8 @@
-import scala.Predef.println
-
 object StringMethods extends App{
 
   println("Testing some string functionality")
 
   val food = "kartupelis" //potato in Latvian
-
   println(food.substring(5))
   println(food.substring(2, 7)) //what will it print remember about 0 based indexing in programming
 

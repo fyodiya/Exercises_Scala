@@ -21,9 +21,6 @@ object CreatingPersons extends App {
   //INHERITANCE
 
 
-
-
-
   lesya.relation
   println(lesya)
 

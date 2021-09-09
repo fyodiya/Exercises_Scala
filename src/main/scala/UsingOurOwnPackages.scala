@@ -1,5 +1,5 @@
 import com.github.fyodiya.Utilities6thOfSept
-import com.github.fyodiya.Utilities6thOfSept.(MYP, add)
+import com.github.fyodiya.Utilities6thOfSept.MYP
 //so whatever is in that Utilities package can be used here
 
 object UsingOurOwnPackages extends App {
