@@ -1,6 +1,6 @@
 package com.github.fyodiya
 
-import _root_.Car //so if i have something at the root of the project that I need to import I can use this _root_
+import _root_._ //so if i have something at the root of the project that I need to import I can use this _root_
 
 object UsingUtilities extends App {
   println(Utilities6thOfSept.MYP) //so I can other objects, classes etc from the same package

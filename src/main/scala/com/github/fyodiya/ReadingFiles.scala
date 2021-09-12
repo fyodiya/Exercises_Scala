@@ -20,7 +20,7 @@ object ReadingFiles extends App {
 
 
   //  val lines = Utilities.getLinesFromFile(filePath) //since i am lazy i could import it
-  val lines = getLinesFromFile(filePath)
+  val lines = getLinesFromFile(filePath.toString)
   println(s"Cool we got a poem with ${lines.length} lines")
   println(lines.mkString("\n")) //so we put back the newline...
 

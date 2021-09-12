@@ -1,6 +1,7 @@
+import com.github.fyodiya.Utilities
 import com.github.fyodiya.Utilities.getLinesFromFile
 
-import java.io.PrintWriter
+import scala.collection.mutable.ArrayBuffer
 
 object ReadingPoem extends App {
   //TODO read stopping by poem from src/resources/stopping_by.txt we can use our Utilities method
@@ -20,7 +21,7 @@ object ReadingPoem extends App {
   //  val poetFullName = secondLineSplit(1) + " " + (secondLineSplit(2))
   val poetFullName = secondLine.split("BY").last.trim //even safer than number as long as there is something
   //  val poetFullName = secondLine.split("BY")(1).trim
-  //is there a possiblity to do it with less actions?
+  //is there a possibility to do it with less actions?
   println(poetFullName)
 
   val filterText = "woods"
@@ -31,7 +32,22 @@ object ReadingPoem extends App {
   //  val filteredText = filteredLines.mkString("\n")
 
   val relative_save_path = "src/resources/stopping_by_selection.txt"
-  // PrintWriter
 
+  //  val filteredLinesWithHeaders = Array(firstLine) ++ Array(poetFullName) ++ filteredLines
+  val filteredLinesWithHeaders = Array(firstLine, poetFullName) ++ filteredLines //same result as above
+
+  //alternative approach for time when you are building up a longer Array and do not have all pieces yet
+  val resultsBuffer = ArrayBuffer[String]()
+  resultsBuffer += firstLine
+  resultsBuffer += poetFullName
+  resultsBuffer ++= filteredLines //we are adding full Array to our buffer not just a single element
+  //add more string items/lines to our buffer
+  val resultsFinalized = resultsBuffer.toArray //nothing more can be added to this
+
+  Utilities.saveLines(relative_save_path, resultsFinalized) //so this will always overwrite the old file
+
+  Utilities.saveLines(relative_save_path, filteredLines)
+
+  Utilities.saveLines(relative_save_path, Array("my snowy lines are no good", "sleepy time"))
 
 }

@@ -1,9 +1,7 @@
 package com.github.fyodiya
 
+import _root_._
 import com.github.fyodiya.Utilities.getMonth
-import
-_root_.Car
-import scala.io.Codec.default
 
 object PatternMatching extends App {
  // i is an integer
@@ -121,21 +119,16 @@ object PatternMatching extends App {
 
  println(echoWhatYouGaveMe(Map((1,"one"),(2,"two"))))
 
-def stringMatcher(text:String): String = {
- text match {
-  case s"name: $myName" => s"Cool, your name is: $myName"
-  case s"lastName:$myName" => s"Cool, your last name is: $myName"
-  case s"$year - $time" => s"Ah, the year is $year and time is $time!"
+def stringMatcher(text:String): String = text match {
+ case s"name: $myName" => s"Cool, your name is: $myName"
+ case s"lastName:$myName" => s"Cool, your last name is: $myName"
+ case s"$year - $time" => s"Ah, the year is $year and time is $time!"
 
-
-  case default => s"Unrecognized string"
- }
+ case _ => s"Unrecognized string"
 }
 
- println(stringMatcher("name:Elina"))
+ println(stringMatcher("name: Elina"))
  println(stringMatcher("lastName: Fjodorova"))
  println(stringMatcher("2021-21-20:PM"))
-
-
 
 }
