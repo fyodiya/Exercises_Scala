@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="pattern matching exercises">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="changes in utilities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingMultipleValues.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingMultipleValues.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/ExerciseAug12$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/ExerciseAug12.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/ReadingUserInput$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/ReadingUserInput$delayedInit$body.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/test-classes/ReadingUserInput.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +91,7 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise6thOfSeptReadingArguments">
+  <component name="RunManager" selected="Application.ReadingFiles">
     <configuration name="Exercise6thOfSeptReadingArguments" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Exercise6thOfSeptReadingArguments" />
       <module name="ScalaPlayground2021Aug" />
@@ -130,15 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingPoem" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ReadingPoem" />
-      <module name="ScalaPlayground2021Aug" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UsingUtilities" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.UsingUtilities" />
+    <configuration name="ReadingMultipleValues" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ReadingMultipleValues" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -146,6 +134,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadingPoem" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ReadingPoem" />
+      <module name="ScalaPlayground2021Aug" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadingFiles" />
+        <item itemvalue="Application.ReadingMultipleValues" />
         <item itemvalue="Application.Exercise6thOfSeptReadingArguments" />
         <item itemvalue="Application.ReadingPoem" />
-        <item itemvalue="Application.ReadingFiles" />
         <item itemvalue="Application.Exercise7thOfSeptember" />
-        <item itemvalue="Application.UsingUtilities" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +255,28 @@
       <option name="project" value="LOCAL" />
       <updated>1631468297896</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="exercises with reading multiple values">
+      <created>1631469515590</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1631469515590</updated>
+    </task>
+    <task id="LOCAL-00013" summary="exercises with reading multiple values">
+      <created>1631470529513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631470529513</updated>
+    </task>
+    <task id="LOCAL-00014" summary="changes in utilities">
+      <created>1631471869584</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1631471869584</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +298,8 @@
     <MESSAGE value="some changes in structure of my files" />
     <MESSAGE value="some changes" />
     <MESSAGE value="pattern matching exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="pattern matching exercises" />
+    <MESSAGE value="exercises with reading multiple values" />
+    <MESSAGE value="changes in utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes in utilities" />
   </component>
 </project>

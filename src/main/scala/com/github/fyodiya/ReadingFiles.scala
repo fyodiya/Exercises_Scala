@@ -1,10 +1,10 @@
 package com.github.fyodiya
-import com.github.fyodiya.Utilities.getLinesFromFile
 
 import java.io.File
+import scala.io.Source
 
 object ReadingFiles extends App {
-  println("Going to read some file")
+  println("We are going to read some files")
 
   //let's check our current working directory because we need to know to have correct relative path
 
@@ -15,13 +15,20 @@ object ReadingFiles extends App {
   //there are relative locations relative to some reference point, like your current location
   //or location of your project folder
   //relative locations are more flexible when moving across computers
- // val filePath = "IdeaProjects/ScalaPlayGroundAugust2021/src/resources/two_roads.txt" //to get this path
+ //absolute locations should be avoided
+
+val relativePath = "src/resources/two_roads.txt"
   // we started at location indicated by println(System.getProperty("user.dir"))
+ def getLinesFromFile(srcPath:String):Array[String] = {
+   val bufferedSource = Source.fromFile(srcPath) //we have a source stream, but it could also be network stream
+   val lines = bufferedSource.getLines().toArray //we transfer this stream until it ends into lines
+   bufferedSource.close //lines - we define the ending character or next line with \n
+   lines
+ }
 
-
-  //  val lines = Utilities.getLinesFromFile(filePath) //since i am lazy i could import it
+  //val lines = Utilities.getLinesFromFile(filePath) //since i am lazy i could import it
   val lines = getLinesFromFile(filePath.toString)
-  println(s"Cool we got a poem with ${lines.length} lines")
+  println(s"Cool - we got a poem with ${lines.length} lines")
   println(lines.mkString("\n")) //so we put back the newline...
 
   //we can always get back the text file with the new lines
