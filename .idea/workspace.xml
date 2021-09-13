@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseParsingPoirot.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ParsingText.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ParsingPoirot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/863-0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseParsingPoirot.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseParsingPoirot.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,15 +94,21 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ExerciseParsingPoirot">
-    <configuration name="Exercise6thOfSeptReadingArguments" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise6thOfSeptReadingArguments" />
+    <configuration name="ExerciseParsingPoirot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseParsingPoirot" />
       <module name="ScalaPlayground2021Aug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.fyodiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseParsingPoirot" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseParsingPoirot" />
+    <configuration name="ParsingPoirot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ParsingPoirot" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -166,10 +170,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ExerciseParsingPoirot" />
+        <item itemvalue="Application.ParsingPoirot" />
         <item itemvalue="Application.ReadingPoem" />
         <item itemvalue="Application.ReadingFiles" />
         <item itemvalue="Application.ReadingMultipleValues" />
-        <item itemvalue="Application.Exercise6thOfSeptReadingArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631527320390</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="exercises">
+      <created>1631556498842</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1631556498842</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,5 +348,15 @@
     <MESSAGE value="writing filtered lines (update)" />
     <MESSAGE value="exercises" />
     <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
