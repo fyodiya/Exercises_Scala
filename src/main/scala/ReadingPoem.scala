@@ -46,10 +46,7 @@ object ReadingPoem extends App {
 
   //add more string items/lines to our buffer
   val resultsFinalized = resultsBuffer.toArray //nothing more can be added to this
-
   Utilities.saveLines(relative_save_path, resultsFinalized) //so this will always overwrite the old file
-
-
   Utilities.saveLines(relative_save_path, Array("my snowy lines are no good", "sleepy time"))
 
 }
