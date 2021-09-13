@@ -29,10 +29,9 @@ object ReadingPoem extends App {
   println(s"Lines starting with $filterText")
   println(filteredLines.mkString("\n"))
 
-  //  val filteredText = filteredLines.mkString("\n")
+  //val filteredText = filteredLines.mkString("\n")
 
   val relative_save_path = "src/resources/stopping_by_selection.txt"
-
   //  val filteredLinesWithHeaders = Array(firstLine) ++ Array(poetFullName) ++ filteredLines
   val filteredLinesWithHeaders = Array(firstLine, poetFullName) ++ filteredLines //same result as above
 
@@ -41,12 +40,15 @@ object ReadingPoem extends App {
   resultsBuffer += firstLine
   resultsBuffer += poetFullName
   resultsBuffer ++= filteredLines //we are adding full Array to our buffer not just a single element
+  //if we see ANY DATA TYPE we should get suspicious,
+  //because it means that we have not done the right operation
+  Utilities.saveLines(relative_save_path, filteredLines)
+
   //add more string items/lines to our buffer
   val resultsFinalized = resultsBuffer.toArray //nothing more can be added to this
 
   Utilities.saveLines(relative_save_path, resultsFinalized) //so this will always overwrite the old file
 
-  Utilities.saveLines(relative_save_path, filteredLines)
 
   Utilities.saveLines(relative_save_path, Array("my snowy lines are no good", "sleepy time"))
 

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="changes in utilities">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="reading text file into an array of strings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631471869584</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="reading text file into an array of strings">
+      <created>1631474453097</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1631474453097</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,6 +309,7 @@
     <MESSAGE value="pattern matching exercises" />
     <MESSAGE value="exercises with reading multiple values" />
     <MESSAGE value="changes in utilities" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in utilities" />
+    <MESSAGE value="reading text file into an array of strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="reading text file into an array of strings" />
   </component>
 </project>

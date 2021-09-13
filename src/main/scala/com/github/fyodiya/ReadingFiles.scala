@@ -19,20 +19,20 @@ object ReadingFiles extends App {
 
 val relativePath = "src/resources/two_roads.txt"
   // we started at location indicated by println(System.getProperty("user.dir"))
- def getLinesFromFile(srcPath:String):Array[String] = {
-   val bufferedSource = Source.fromFile(srcPath) //we have a source stream, but it could also be network stream
-   val lines = bufferedSource.getLines().toArray //we transfer this stream until it ends into lines
-   bufferedSource.close //lines - we define the ending character or next line with \n
-   lines
- }
 
-  //val lines = Utilities.getLinesFromFile(filePath) //since i am lazy i could import it
-  val lines = getLinesFromFile(filePath.toString)
-  println(s"Cool - we got a poem with ${lines.length} lines")
+  def getTextFromFile(srcPath:String):String = {
+    val bufferedSource = Source.fromFile(srcPath) //we have a source stream, but it could also be network stream
+    val textFromFile = bufferedSource.mkString //we transfer this stream until it ends into lines
+    bufferedSource.close //lines - we define the ending character or next line with \n
+    textFromFile}
+
+  //val lines = Utilities.getLinesFromFile(filePath) //I could import it to save some work or time
+  val lines = Utilities.getLinesFromFile(filePath.toString)
+  println(s"Cool we got a poem with ${lines.length} lines")
   println(lines.mkString("\n")) //so we put back the newline...
 
   //we can always get back the text file with the new lines
-  val text = lines.mkString("\n") //so we get back the newlines
+  val text = lines.mkString("\n") //thus we get back newlines
   //  print(text)
 
   val firstLine = lines.head //same as lines(0)
