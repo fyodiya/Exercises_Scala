@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="reading text file into an array of strings">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseParsingPoirot.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ParsingText.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/ReadingPoem.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingFiles.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +95,7 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadingPoem">
+  <component name="RunManager" selected="Application.ExerciseParsingPoirot">
     <configuration name="Exercise6thOfSeptReadingArguments" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Exercise6thOfSeptReadingArguments" />
       <module name="ScalaPlayground2021Aug" />
@@ -101,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise7thOfSeptember" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.Exercise7thOfSeptember" />
+    <configuration name="ExerciseParsingPoirot" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseParsingPoirot" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseParsingPoirot" />
         <item itemvalue="Application.ReadingPoem" />
         <item itemvalue="Application.ReadingFiles" />
         <item itemvalue="Application.ReadingMultipleValues" />
         <item itemvalue="Application.Exercise6thOfSeptReadingArguments" />
-        <item itemvalue="Application.Exercise7thOfSeptember" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +287,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631474453097</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="writing filtered lines">
+      <created>1631527219832</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1631527219832</updated>
+    </task>
+    <task id="LOCAL-00017" summary="writing filtered lines (update)">
+      <created>1631527320390</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1631527320390</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -302,6 +318,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/test/HomeWorkExampleAug2021" />
+      <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/CloneOfScala2021Aug" />
+      <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/FizzBuzz" />
+      <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
+      <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
+    </ignored-roots>
     <MESSAGE value="sample project&#10;Exercise for Reading user input&#10;String Fun&#10;Test&#10;Added a comment" />
     <MESSAGE value="declaring data type in Scala" />
     <MESSAGE value="some changes in structure of my files" />
@@ -310,6 +333,9 @@
     <MESSAGE value="exercises with reading multiple values" />
     <MESSAGE value="changes in utilities" />
     <MESSAGE value="reading text file into an array of strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="reading text file into an array of strings" />
+    <MESSAGE value="writing filtered lines" />
+    <MESSAGE value="writing filtered lines (update)" />
+    <MESSAGE value="exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
   </component>
 </project>

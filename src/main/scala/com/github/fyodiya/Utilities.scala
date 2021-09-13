@@ -1,4 +1,6 @@
 package com.github.fyodiya
+
+import java.io.{File, FileWriter}
 import scala.io.Source
 
 /**
@@ -50,19 +52,41 @@ object Utilities {
 
   /**
    *
-   * @param dstPath - (destination Path) save Path
-   * @param lines - array of Strings to save
+   * @param dstPath - save Path
+   * @param text - string to save
    */
-  def saveText(dstPath: String, text: String):Unit = {
-    import java.io.{PrintWriter, File} //explicit import
-    val pw = new PrintWriter(new File(dstPath))
-    pw.write(text)
-    pw.close() //when writing, it is especially important to close as early as possible
+  def saveText(dstPath: String, text: String, append:Boolean=false):Unit = {
+    //    import java.io.{PrintWriter, File} //explicit import
+    val fw = new FileWriter(dstPath, append)
+    //    val pw = new PrintWriter(new File(dstPath))
+    if (append) fw.write("\n") //TODO think about appending custom header
+    fw.write(text)
+    fw.close() //when writing it is especially important to close as early as possible
   }
 
-  def saveLines(dstPath: String, lines:Array[String]): Unit = {
-    saveText(dstPath, lines.mkString("\n"))
+  /**
+   *
+   * @param dstPath - save Path
+   * @param lines - array of Strings to save
+   *              overwrites old file by default
+   */
+  def saveLines(dstPath: String, lines: Array[String], append:Boolean=false, lineEnd:String="\n"):Unit = {
+    saveText(dstPath, lines.mkString(lineEnd), append)
   }
-  //we are building up bigger solutions from small pieces
 
+  /**
+   * adapted from https://alvinalexander.com/scala/how-to-list-files-in-directory-filter-names-scala/
+   * @param dir -- path to list files in
+   * @param regex  - match to filter by, default is everything
+   * @return -- returns a list of Files
+   */
+  def getListOfFiles(dir: String, regex:String=".*"):List[File] = {
+    val d = new File(dir)
+    if (d.exists && d.isDirectory) {
+      //      d.listFiles.filter(_.isFile).toList
+      d.listFiles.filter(file => file.isFile && file.getName.matches(regex)).toList
+    } else {
+      List[File]() //so we return empty list if nothing is found
+    }
+  }
 }
