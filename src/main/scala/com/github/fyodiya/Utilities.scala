@@ -55,8 +55,9 @@ object Utilities {
    * @param dstPath - save Path
    * @param text - string to save
    */
-  def saveText(dstPath: String, text: String, append:Boolean=false):Unit = {
+  def saveText(dstPath: String, text: String, append:Boolean=false, verbose:Boolean=false):Unit = {
     //    import java.io.{PrintWriter, File} //explicit import
+    if (verbose) println(s"Saving ${text.length} characters to $dstPath")
     val fw = new FileWriter(dstPath, append)
     //    val pw = new PrintWriter(new File(dstPath))
     if (append) fw.write("\n") //TODO think about appending custom header
@@ -89,4 +90,33 @@ object Utilities {
       List[File]() //so we return empty list if nothing is found
     }
   }
+
+  /**
+   *
+   * @param url - web resource locator
+   * @return - we return the whole web page as string, it could be a text file
+   */
+  def getTextFromWeb(url: String):String = {
+    val html = Source.fromURL(url) //does not have to html, just keep in mind this accessed external web address
+    //BufferedSource means it is waiting to be processed because downloading from web might not be instant
+    html.mkString
+  }
+
+  def getCharacterCount(lines: Array[String], newline:String="\n"):Int = lines.mkString(newline).length
+
+  /**
+   *
+   * @param lines - our input text lines
+   * @param sep - how to split words
+   * @param removeEmptyLines - whether to remove empty lines
+   * @return - array of word count per line
+   */
+  def getWordCountPerLine(lines: Array[String], sep:String=" +", removeEmptyLines:Boolean=true):Array[Int] = {
+    //first we clean the lines if necessary
+    val cleanLines = if (removeEmptyLines) lines.filter(_.trim.length > 0) else lines
+    val wordsLines = cleanLines.map(_.split(sep))
+    val wordCountPerLine = wordsLines.map(_.length)
+    wordCountPerLine
+  }
+
 }
