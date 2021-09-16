@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="text file and some changes made to it through some methods">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/CleanWill.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/The Case Of The Missing Will.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/The Case of the Missing Will_cleaned.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/CleanWill.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/CleanWill.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,20 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtractStories">
+  <component name="RunManager" selected="Application.CleanWill">
+    <configuration name="CleanWill" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.CleanWill" />
+      <module name="ScalaPlayground2021Aug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.fyodiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ExerciseParsingPoirot" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseParsingPoirot" />
       <module name="ScalaPlayground2021Aug" />
@@ -132,13 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingPoem" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="ReadingPoem" />
-      <module name="ScalaPlayground2021Aug" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReadingWebResources" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ReadingWebResources" />
       <module name="ScalaPlayground2021Aug" />
@@ -168,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CleanWill" />
         <item itemvalue="Application.ExtractStories" />
         <item itemvalue="Application.ReadingWebResources" />
         <item itemvalue="Application.ExerciseParsingPoirot" />
         <item itemvalue="Application.ParsingPoirot" />
-        <item itemvalue="Application.ReadingPoem" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631649046119</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="text file and some changes made to it through some methods">
+      <created>1631814183121</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1631814183121</updated>
+    </task>
+    <task id="LOCAL-00023" summary="text file and some changes made to it through some methods">
+      <created>1631814252317</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1631814252317</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
