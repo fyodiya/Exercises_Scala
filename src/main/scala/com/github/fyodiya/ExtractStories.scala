@@ -1,5 +1,7 @@
 package com.github.fyodiya
 
+import java.util.regex.Pattern
+
 object ExtractStories extends App {
   object ExerciseSep14ExtractStories extends App {
     val destDir = "src/resources/"
@@ -112,6 +114,28 @@ object ExtractStories extends App {
     //so i will go through all airs of stories and their names and save them
     //we might need a sanitize function since some names have some extra characters
     for ((story, storyTitle) <- myStories zip storyNames) Utilities.saveText(destDir + storyTitle + ".txt", story)
+
+    //https://alvinalexander.com/scala/how-find-regex-patterns-matches-in-strings-scala/
+   // val numPattern = "[0-9]+".r //this is very loose
+    val numPattern = "^.*[0-9].*$".r //this one is much stricter
+
+    val numLines = lines.filter(line => numPattern.findFirstIn(line).isDefined)
+    println(numLines.length)
+    numLines.foreach(println)
+
+    val text = lines.mkString("\n")
+    val phonePattern = "(\\d\\d\\d) \\d\\d\\d-\\d\\d\\d\\d".r
+    println(phonePattern.findFirstIn(text).getOrElse("Not found"))
+
+    //val zipCodePattern = "\\w\\w \\d\\d\\d\\d\\d".r
+    val zipCodePattern = "[A-Z] [A-Z] \\w\\w \\d\\d\\d\\d\\d".r //much stricter
+val zipCodes = zipCodePattern.findFirstIn(text).getOrElse("Not found")
+
+    val linesWithZipCodes = lines.filter(line => zipCodePattern.findFirstIn(line).isDefined)
+    linesWithZipCodes.foreach(println)
+
+    //homework - begin with filtering
+    //slicing should be the last option
 
   }
 }
