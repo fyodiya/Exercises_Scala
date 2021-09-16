@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingWebResources.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/poirot.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/poirot_line_numbers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/poirot_line_numbers_fancy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/styles_toc.txt" afterDir="false" />
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="text file and some changes made to it through some methods">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/CleanWill.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Utilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631560069571</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="exercises">
+      <created>1631649018080</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1631649018080</updated>
+    </task>
+    <task id="LOCAL-00021" summary="text file and some changes made to it through some methods">
+      <created>1631649046119</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1631649046119</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +367,8 @@
     <MESSAGE value="writing filtered lines" />
     <MESSAGE value="writing filtered lines (update)" />
     <MESSAGE value="exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+    <MESSAGE value="text file and some changes made to it through some methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="text file and some changes made to it through some methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

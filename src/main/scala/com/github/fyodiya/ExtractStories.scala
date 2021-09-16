@@ -1,7 +1,5 @@
 package com.github.fyodiya
 
-import com.github.fyodiya.ExtractStories.lines
-
 object ExtractStories extends App {
   val srcPath = "src/resources/61262-0.txt"
   val lines = Utilities.getLinesFromFile(srcPath)
@@ -65,14 +63,43 @@ object ExtractStories extends App {
     //so this not Scala style using early return but very convenient here
     for ((line, index) <- lines.zipWithIndex) {
       if (line.trim == toMatch) {
-        println(s"Found Story: $toMatch at line ${index+1}") //zipIndex starts with 0 but text file starts at 1
-        return index+1 //Scala does not like early return but here it is too convenient to avoid
+        println(s"Found Story: $toMatch at line ${index + 1}") //zipIndex starts with 0 but text file starts at 1
+        return index + 1 //Scala does not like early return but here it is too convenient to avoid
       }
     }
     0 //nothing found
   }
 
+  def findLineNumberAlso(lines:Array[String], toMatch:String, remove:String="the"):Int = {
+    //lines.indexWhere(line => line.trim.replace("_", "_") == toMatch.replace("_", "_")) + 1 //because our line numbers start with 1
+  def trimFun(line:String, remove:String, replacement:String=""): String = line.
+    trim.
+    toLowerCase.
+    replace(remove, replacement).
+    replace("  ", " ")
+
+    val cleanMatch = trimFun(toMatch, remove)
+
+    lines.indexWhere(line => trimFun(line, remove) == cleanMatch)
+
+  }
+
   val storyStarts = storyNames.map(story => findLineNumber(lines, story))
   println(storyStarts.mkString(","))
+
+  val storyStartsAlso = storyNames.map(story => {
+    findLineNumberAlso(lines, story)
+    println(s"finding our story $story")
+    findLineNumberAlso(lines, story)
+  })
+  val startIndex = storyStartsAlso
+  val endIndex = storyStartsAlso.tail ++ Array(lines.length)
+  println(startIndex.mkString(","))
+  println(endIndex.mkString(","))
+
+  val myStories = for ((start,end) <- startIndex zip endIndex) yield lines.slice(start,end).mkString(",")
+  for ((story,storyTitle) <- myStories zip storyNames) Utilities.saveText(destDir+storyTitle+".txt",story))
+
+
 
 }
