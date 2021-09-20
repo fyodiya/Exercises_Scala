@@ -1,7 +1,5 @@
 package com.github.fyodiya
 
-import SeqSpeedTest.arr
-
 object ReadingSCV extends App {
   val srcFile = "src/resources/csv/veggie_prices_21.csv"
   val lines = Utilities.getLinesFromFile(srcFile)
@@ -11,10 +9,12 @@ object ReadingSCV extends App {
   val splitLines = lines.map(_.split(","))
   splitLines.slice(0,10).foreach(line => println(line.mkString(",")))
 
-  def arrayToVeggie(src:Array[String]):Veggie = {
-    //the hard part with CSV is handling the bad cases
-    Veggie(arr(0), arr(1), arr(3), arr(4).toDouble, arr(5))
+  def arrayToVeggie(arr:Array[String]):Veggie = {
+    //the hard part with CSV is handling bad cases
+    //you would want to add some error handling here
+    Veggie(arr(0), arr(1), arr(2), arr(3), arr(4).toDouble, arr(5))
   }
+
  val veggieLines = splitLines.tail.map(line => arrayToVeggie(line))
   //we make some structure from our data
 
