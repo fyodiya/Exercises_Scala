@@ -1,7 +1,5 @@
 package com.github.fyodiya
 
-import java.util.regex.Pattern
-
 object ExtractStories extends App {
   object ExerciseSep14ExtractStories extends App {
     val destDir = "src/resources/"
@@ -9,8 +7,8 @@ object ExtractStories extends App {
     val lines = Utilities.getLinesFromFile(srcPath)
     println(s"There are ${lines.length} lines in $srcPath")
 
-    //TODO get some stats about the file
-    //TODO get character count across all lines - so how many symbols are in the file total
+    //SOLVED get some stats about the file
+    //SOLVED get character count across all lines - so how many symbols are in the file total
     val charCount = Utilities.getCharacterCount(lines)
     val charCountWithoutNewlines = Utilities.getCharacterCount(lines, newline = "")
 
