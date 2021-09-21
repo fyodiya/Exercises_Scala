@@ -4,9 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="text file and some changes made to it through some methods">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercise with CSV">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_geny_2_13_0_6_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_ujson_2_13_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_upack_2_13_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_upickle_2_13_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_upickle_core_2_13_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_lihaoyi_upickle_implicits_2_13_1_4_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Employee.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseReadJSON.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ReadingJSON.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Recipe.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/JSON/employees.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/JSON/recipes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/ScalaPlayground2021Aug.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3e8c4d76a7d0537750d$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3e8c4d76a7d0537750d.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a3e8c4d76a7d0537750d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseVeggieAnalysis.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseVeggieAnalysis.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/.history3" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,13 +110,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/scala" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/ScalaPlayground2021Aug/src/main/scala" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\test\ScalaPlayground2021Aug\src\main\scala" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\main\scala" />
       <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src" />
       <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\main" />
       <recent name="C:\Users\eafjo\IdeaProjects\ScalaPlayground2021Aug\src\main\resources" />
@@ -91,7 +126,7 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CleanWill">
+  <component name="RunManager" selected="Application.ExerciseReadJSON">
     <configuration name="CleanWill" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.CleanWill" />
       <module name="ScalaPlayground2021Aug" />
@@ -105,8 +140,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExerciseParsingPoirot" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseParsingPoirot" />
+    <configuration name="ExerciseReadJSON" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseReadJSON" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtractStories" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExtractStories" />
+    <configuration name="ExerciseVeggieAnalysis" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseVeggieAnalysis" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +166,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParsingPoirot" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ParsingPoirot" />
+    <configuration name="ReadingJSON" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ReadingJSON" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -144,20 +179,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingWebResources" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ReadingWebResources" />
-      <module name="ScalaPlayground2021Aug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.fyodiya.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scala REPL_mine" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="Scala REPL_mine" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <module name="ScalaPlayground2021Aug" />
       <option name="allowRunningInParallel" value="false" />
       <option name="javaOptions" value="-Djline.terminal=NONE" />
@@ -173,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExerciseReadJSON" />
+        <item itemvalue="Scala REPL.Scala REPL_mine" />
+        <item itemvalue="Application.ReadingJSON" />
+        <item itemvalue="Application.ExerciseVeggieAnalysis" />
         <item itemvalue="Application.CleanWill" />
-        <item itemvalue="Application.ExtractStories" />
-        <item itemvalue="Application.ReadingWebResources" />
-        <item itemvalue="Application.ExerciseParsingPoirot" />
-        <item itemvalue="Application.ParsingPoirot" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +380,70 @@
       <option name="project" value="LOCAL" />
       <updated>1631816462203</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="text file and some changes made to it through some methods">
+      <created>1631818477198</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1631818477198</updated>
+    </task>
+    <task id="LOCAL-00026" summary="exercise for the weekend (optional)">
+      <created>1631818663484</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1631818663484</updated>
+    </task>
+    <task id="LOCAL-00027" summary="creating new case class">
+      <created>1632158040755</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158040755</updated>
+    </task>
+    <task id="LOCAL-00028" summary="reading CSV files">
+      <created>1632158054951</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158054951</updated>
+    </task>
+    <task id="LOCAL-00029" summary="CSV file">
+      <created>1632158065131</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158065131</updated>
+    </task>
+    <task id="LOCAL-00030" summary="extracting data from text files">
+      <created>1632158081497</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158081497</updated>
+    </task>
+    <task id="LOCAL-00031" summary="exercise with CSV">
+      <created>1632158093219</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158093219</updated>
+    </task>
+    <task id="LOCAL-00032" summary="exercise with CSV">
+      <created>1632158165891</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1632158165891</updated>
+    </task>
+    <task id="LOCAL-00033" summary="exercise with CSV">
+      <created>1632164276174</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1632164276174</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -394,7 +479,13 @@
     <MESSAGE value="writing filtered lines (update)" />
     <MESSAGE value="exercises" />
     <MESSAGE value="text file and some changes made to it through some methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="text file and some changes made to it through some methods" />
+    <MESSAGE value="exercise for the weekend (optional)" />
+    <MESSAGE value="creating new case class" />
+    <MESSAGE value="reading CSV files" />
+    <MESSAGE value="CSV file" />
+    <MESSAGE value="extracting data from text files" />
+    <MESSAGE value="exercise with CSV" />
+    <option name="LAST_COMMIT_MESSAGE" value="exercise with CSV" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
