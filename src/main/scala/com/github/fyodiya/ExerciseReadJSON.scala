@@ -26,6 +26,14 @@ object ExerciseReadJSON extends App {
   seqObjects.slice(0,3).foreach(println)
 
   //TODO print the recipes out
+  def createRecipe(hMap: mutable.LinkedHashMap[String, ujson.Value]): Recipe = {
+    val title = hMap.getOrElse("title", "no title").toString
+    val href = hMap.getOrElse("href", "no url").toString
+    val ingredients = hMap.getOrElse("ingredients", "").toString.split(",")
+    val thumbnail = hMap.getOrElse("thumbnail", "no thumb").toString
+    Recipe(title, href, ingredients, thumbnail)
+  }
+
   val firstRecipe = createRecipe(seqObjects.head) //or seqObjects(0)
   println(firstRecipe)
   println(firstRecipe.ingredients.mkString(","))
