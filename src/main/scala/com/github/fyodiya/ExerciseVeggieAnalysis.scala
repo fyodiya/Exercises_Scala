@@ -84,4 +84,5 @@ object ExerciseVeggieAnalysis extends App {
     val prices = value.map(_.price)
     println(s"For year $key lettuce prices ranged from ${prices.min} to ${prices.max}")
   }
+
 }
