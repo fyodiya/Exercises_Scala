@@ -1,0 +1,8 @@
+[
+  { "firstName":"John", "lastName":"Doe" },
+  { "firstName":"Anna", "lastName":"Smith" },
+  { "firstName":"John", "lastName":"Smith" },
+  { "firstName":"Bob", "lastName":"Smith" },
+  { "firstName":"James", "lastName": "Bond" , "callSign":  "007"},
+  { "firstName":"Peter", "lastName":"Jones" }
+]
