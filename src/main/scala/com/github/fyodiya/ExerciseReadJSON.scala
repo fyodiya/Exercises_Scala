@@ -40,8 +40,11 @@ object ExerciseReadJSON extends App {
   //BONUS create a Recipe case class and actually parse into Array of Recipe s //this could take a bit longer
 
   //  val allRecipes = seqObjects.map(hMap => createRecipe(hMap)) //full syntax
+
   //    val allRecipes = seqObjects.map(createRecipe(_)) //shorter
-  val allRecipes = seqObjects.map(createRecipe) //super short, works because createRecipe only takes one parameter of cour type
+
+  val allRecipes = seqObjects.map(createRecipe) //super short,
+  // works because createRecipe only takes one parameter of cour type
 
   allRecipes.slice(0,3).foreach(println)
 
@@ -51,7 +54,7 @@ object ExerciseReadJSON extends App {
   val allRecipeJson = write(allRecipes)
   println(allRecipeJson)
 
-  //so we made a funtion to check for ingredient
+  //so we made a function to check for ingredient
   def isNeedlePresent(ingredients: Array[String], needle:String):Boolean = {
     val goodIngredients = ingredients.filter(item => item.contains(needle))
     goodIngredients.length > 0 //so if 0 that will be false meaning no needle present
