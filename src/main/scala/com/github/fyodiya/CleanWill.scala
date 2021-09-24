@@ -29,8 +29,5 @@ for (index <- 0 until lines.length) {
 
   //few options or methods to choose from
 
-
-}
-
-
+  }
 }
