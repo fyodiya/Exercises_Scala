@@ -16,13 +16,13 @@ val srcFolder = "src/resources"
   val lines = Utilities.getLinesFromFile(files.head.getPath)
   println(s"We have ${lines.length} lines in our text $filePath")
 
-  //TODO get all lines that mention "Poirot"
+  //get all lines that mention "Poirot"
   val filterText = "Poirot"
   val filteredLines = for (line <- lines if line.contains(filterText)) yield line
   println(s"Lets print all lines that contain word $filterText")
   println(filteredLines.mkString("\n"))
 
-  //TODO count these lines
+  //count these lines
   //val allLines = filteredLines.mkString
  //def countLines() {
  //val src = allLines
@@ -77,22 +77,18 @@ val srcFolder = "src/resources"
   //we could create our own format on the run just add fancyLine or whatever function/method to our case class
   Utilities.saveLines("src/resources/poirot_line_numbers_fancy.txt", poirotCases.map(_.fancyLine))
 
-  //
-  //  TODO find chapter index - table of contents - this can get tricky, many approaches possible
-  //  TODO print and save table of contents
 
+  //find chapter index - table of contents - this can get tricky, many approaches possible
   //easy way to print table of contents is simply use slice only question is can we find the index with program or by hand input
-
   //so hard coded inflexible way first:
   val tableOfContents = lines.slice(35,48) //not great because only applies to that one book...also off by one errors
 
+  //print and save table of contents
   println(tableOfContents.mkString("\n")) //so same as tableOfContents.foreach(println)
-
   Utilities.saveLines("src/resources/styles_toc.txt", tableOfContents)
 
-  //TODO ideas to think about
-
-  //we can look for first occurence of chapter and then go until no more chapters are available
+  //ideas to think about
+  //we can look for first occurrence of chapter and then go until no more chapters are available
 
   //the issue is the chapters that appear in begging of each chapter, so we have doubles
 
