@@ -119,4 +119,14 @@ object Utilities {
     wordCountPerLine
   }
 
+  /**
+   *
+   * @param srcPath- relative Path
+   * @return - full text
+   */
+  def getTextFromFile(srcPath:String):String = {
+    val bufferedSource = Source.fromFile(srcPath)
+    bufferedSource.mkString
+  }
+
 }
