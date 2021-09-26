@@ -1,6 +1,7 @@
 package com.github.fyodiya
 
 import java.io.{File, FileWriter}
+import java.nio.file.{Files, Paths}
 import scala.io.Source
 
 /**
@@ -103,7 +104,6 @@ object Utilities {
   }
 
   def getCharacterCount(lines: Array[String], newline:String="\n"):Int = lines.mkString(newline).length
-
   /**
    *
    * @param lines - our input text lines
@@ -129,4 +129,13 @@ object Utilities {
     bufferedSource.mkString
   }
 
+  /**
+   *
+   * @param filePath - filePath
+   * @return whether file exists true or false
+   */
+  def isFileThere(filePath:String):Boolean = {
+    val path = Paths.get(filePath)
+    Files.exists(path)
+  }
 }
