@@ -1,17 +1,14 @@
 package com.github.fyodiya
 
-import scala.io.Source
-
 object ExercisePrideAndPrejudice extends App {
-//download file with scala, not download by hand
+//download file with scala instead of by hand
   //save to src/resources
   //read,
-  // extract all years (which are 4 digits long)
+  //extract all years (which are 4 digits long)
   //extract all words with capital letters
 
   //extra challenge - words which are not first in a sentence
 
-  //download https://www.gutenberg.org/files/1342/1342-0.txt
   val url = "https://www.gutenberg.org/files/1342/1342-0.txt"
   val fileName = url.split("/").last //so this will work even if there is nothing to split
   val destPath = s"src/resources/$fileName"
@@ -26,5 +23,10 @@ object ExercisePrideAndPrejudice extends App {
     //just notice this could take a bit so this is called blocking call, you cant proceed until you are finished
     Utilities.saveText(destPath, text)
   } //we could add else but here we will save and then load it
+
+  val lines = Utilities.getLinesFromFile(destPath) //unless something went wrong with my HardDrive or SSD or Internet I should have the source
+  val text = lines.mkString("\n")
+
+
 
 }
