@@ -17,6 +17,7 @@
     <orderEntry type="library" name="sbt: com.lihaoyi:upickle-core_2.13:1.4.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.lihaoyi:upickle-implicits_2.13:1.4.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.lihaoyi:upickle_2.13:1.4.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.6:jar" level="project" />
   </component>
 </module>

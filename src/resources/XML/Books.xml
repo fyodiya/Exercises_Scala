@@ -1,0 +1,35 @@
+<bookstore>
+    <book category="children">
+        <title>Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="web">
+        <title>Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+    <book category="programming">
+        <title>Programming in Scala</title>
+        <author>Odersky Martin</author>
+        <edition>5th</edition>
+        <year>2021</year>
+        <price>49.95</price>
+    </book>
+    <book>
+        <title>Eating supper</title>
+        <author>Sirmais Martins</author>
+        <edition>5th</edition>
+        <year>2021</year>
+        <price>29.95</price>
+    </book>
+    <book category="programming">
+        <title>Hands on Scala Programming</title>
+        <author>Li Haoyi</author>
+        <edition>1st</edition>
+        <year>2022</year>
+        <price>45</price>
+    </book>
+</bookstore>
