@@ -53,10 +53,11 @@ object ExercisePrideAndPrejudice extends App {
   for ((key,value) <- orderedCount) {
     println(key, value)
   } //so this was alphabetical ...
-  //  val countTuples = for ((key,value) <- orderedCount) yield (key,value)
+  // val countTuples = for ((key,value) <- orderedCount) yield (key,value)
 
   //https://alvinalexander.com/scala/how-to-sort-map-in-scala-key-value-sortby-sortwith/
-  val sortedCount = ListMap(wordCount.toSeq.sortBy(_._2):_*) //so we want to sort by value not key
+  val sortedCount = ListMap(wordCount.toSeq.sortBy(_._2):_*)
+  //so we want to sort by value, not key
   sortedCount.slice(0,50).foreach(println)
   sortedCount.toSeq.reverse.slice(0,50).foreach(println)
 
