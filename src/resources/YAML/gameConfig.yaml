@@ -1,0 +1,8 @@
+defaultMatches: 12
+minStartingMatches: 5
+maxStartingMatches: 15
+playerA: Valdis
+playerB: Līga
+maximumScore: 1000
+gameLength: 30
+topScores: (1000,700,500)
