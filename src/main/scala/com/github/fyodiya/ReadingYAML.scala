@@ -31,7 +31,7 @@ object ReadingYAML extends App {
   val obj = genericYaml.load(newStream).asInstanceOf[java.util.Map[String, Any]]
 
   //  https://stackoverflow.com/questions/16918956/convert-java-map-to-scala-map
-  import scala.collection.JavaConverters._ //TODO find newere method
+  import scala.collection.JavaConverters._ //TODO find newer method
   val myScalaMap = obj.asScala.toMap
 
   for ((key,value) <- myScalaMap) {

@@ -33,5 +33,4 @@ object ParsingText extends App {
   val stopFiles = Utilities.getListOfFiles(srcFolder, "^stop.*")
   println(stopFiles)
 
-
 }

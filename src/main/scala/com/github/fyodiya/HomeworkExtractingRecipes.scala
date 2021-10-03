@@ -17,7 +17,6 @@ object HomeworkExtractingRecipes extends App {
 //println(textFromURL)
   Utilities.saveText(destPath, textFromURL)
 
-
   val lines = Utilities.getLinesFromFile(destPath)
   val text = lines.mkString("\n")
   //println(text)
@@ -25,54 +24,58 @@ object HomeworkExtractingRecipes extends App {
   //val text = lines.toSeq
   val mySeq = text.split("\n")
 
-  println(mySeq)
-  var summa = 0
-
+  //println(mySeq.mkString("Array(", ", ", ")"))
+  var sum = 0
 
   for (i <- mySeq) {
-      val rgxForWords = "[A-Z]".r
-      val wordsWithCapitalLetter = rgxForWords.findAllIn(i).toSeq
-      if (i.startsWith("    ") || wordsWithCapitalLetter.length != 0) {
-        println(i) //after all the filtering save lines in my file
-        summa = summa + 1
-        println(summa)
-      }
+    val rgxForWords = "\\b[A-Z][A-Z]*\\b".r
+    val wordsWithCapitalLetter = rgxForWords.findAllIn(i).toSeq
+    if (i.startsWith("    ") || wordsWithCapitalLetter.nonEmpty  || i.startsWith("^[0-9].*"))
+    {
+      println(i) //after all the filtering save lines in my file
+      sum = sum + 1
+      println(sum)
     }
+  }
 
-  //println(mySeq)
-//  val mySeq = Seq(text)
-//  println(mySeq)
 
-//def filteringIngredients(mySeq:WrappedString) = {
-  //val regexForIngredients = "\n"
-  //val ingredients = "    "
-  //for(ele <- mySeq){
-   // if(ele == "    ") {
+
+
+    //  val numRex = "^[0-9].*" //^ start of a string [0-9] any digit, .* means anything many times or nothing
+    //  val filteredFiles = files.filter(_.getName.matches(numRex))
+    //  println(filteredFiles)
+
+    //println(mySeq)
+    //  val mySeq = Seq(text)
+    //  println(mySeq)
+
+    //def filteringIngredients(mySeq:WrappedString) = {
+    //val regexForIngredients = "\n"
+    //val ingredients = "    "
+    //for(ele <- mySeq){
+    // if(ele == "    ") {
     //  println("Jauna rinda")
     //}
 
-  //println(ingredients)
+    //println(ingredients)
 
-  // filteringIngredients(mySeq)
-// val ingredients = mySeq.filter(line => lines.startsWith("^[0-9]".r))
-// println(ingredients)
-//}
-//
-//  //alternative regex for finding all capital letters words (/\b[A-Z]+\b/g)
-//  filteringIngredients(mySeq)
-//  val regexForTitles = "^\\b[A-Z]+\\b".r
-//  val titles = regexForTitles.findAllIn(text).toSeq
-//  titles.foreach(println)
-//  //    TODO more filtering for false titles meaning titles which do not have ingredients following ingredients
-//
-//
-//
-//
+    // filteringIngredients(mySeq)
+    // val ingredients = mySeq.filter(line => lines.startsWith("^[0-9]".r))
+    // println(ingredients)
+    //}
+    //
+    //  //alternative regex for finding all capital letters words (/\b[A-Z]+\b/g)
+    //  filteringIngredients(mySeq)
+    //  val regexForTitles = "^\\b[A-Z]+\\b".r
+    //  val titles = regexForTitles.findAllIn(text).toSeq
+    //  titles.foreach(println)
+    //  TODO more filtering for false titles meaning titles which do not have ingredients following ingredients
+    //
 
 
-  // val destinationFile = "src/resources/Cookbook.txt"
-  // Utilities.saveLines(destinationFile, Cookbook)
-  //println(wordsWithCapitalLetters.mkString("\n"))
-//  Utilities.saveLines("src/resources/Cookbook.txt", titles)
+    // val destinationFile = "src/resources/Cookbook.txt"
+    // Utilities.saveLines(destinationFile, Cookbook)
+    //println(wordsWithCapitalLetters.mkString("\n"))
+    //  Utilities.saveLines("src/resources/Cookbook.txt", titles)
 
-}
+  }

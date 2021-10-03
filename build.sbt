@@ -11,3 +11,9 @@ javacOptions ++= Seq( "-encoding", "UTF-8" )
 
 // https://mvnrepository.com/artifact/org.scala-lang.modules/scala-xml
 libraryDependencies += "org.scala-lang.modules" %% "scala-xml" % "2.0.1"
+
+// https://mvnrepository.com/artifact/org.yaml/snakeyaml
+libraryDependencies += "org.yaml" % "snakeyaml" % "1.29"
+
+// https://mvnrepository.com/artifact/org.ini4j/ini4j
+libraryDependencies += "org.ini4j" % "ini4j" % "0.5.4"
