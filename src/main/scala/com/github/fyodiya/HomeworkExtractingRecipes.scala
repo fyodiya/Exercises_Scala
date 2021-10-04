@@ -1,5 +1,10 @@
 package com.github.fyodiya
 
+import ujson.IndexedValue.False
+
+import scala.collection.convert.ImplicitConversions.`collection asJava`
+import scala.collection.mutable.ListBuffer
+
 //import java.io.FileInputStream
 //import scala.io.BufferedSource
 //import scala.util.control.Breaks.{break, breakable}
@@ -27,21 +32,46 @@ object HomeworkExtractingRecipes extends App {
   //println(mySeq.mkString("Array(", ", ", ")"))
   var sum = 0
 
-  for (i <- mySeq) {
-    val rgxForWords = "\\b[A-Z][A-Z]*\\b".r
-    val wordsWithCapitalLetter = rgxForWords.findAllIn(i).toSeq
-    if (i.startsWith("    ") || wordsWithCapitalLetter.nonEmpty  || i.startsWith("^[0-9].*"))
-    {
-      println(i) //after all the filtering save lines in my file
-      sum = sum + 1
-      println(sum)
+  val matchA = "*"
+  val matchB = "Illustration"
+//  val linesWithMatch = lines.zipWithIndex.filter(lineTuple => lineTuple._1.contains{(matchA) || (matchB)})
+//  val linesWithMatchA = lines.filterNot(lines.contains(matchA))
+
+  val nlList = text.split("\n").toList
+  var newList = new ListBuffer[String]()
+  for (x <- nlList) {
+    if(x.contains(matchA) == false) {
+      if(x.contains(matchB) == false){
+        newList += x
+      }
     }
   }
+println(newList)
 
+//    val regexStars = "*      "
+//   val charCode = "42"
+//    val filteringStars = mySeq
+//    print(filteringStars)
 
+  for (i <- mySeq) { //changed from mySeq to filteringStars
+    val rgxForWords = "^\\b[A-Z]+\\b".r
+    val wordsWithCapitalLetter = rgxForWords.findAllIn(i).toSeq
 
+    if (i.startsWith("    ")
+//      || filteringStars.nonEmpty
+      || wordsWithCapitalLetter.nonEmpty
+      || i.startsWith("^[0-9].*")
+      )
+    {
+      //println(i) //after all the filtering save lines in my file
+      sum = sum + 1
+//      println(sum)
+    }
+  }
+//val rdd2 = rdd1.filter(x => !(x._1 contains "."))
+  //FALSE RESULTS (*       )
 
-    //  val numRex = "^[0-9].*" //^ start of a string [0-9] any digit, .* means anything many times or nothing
+    //  val numRex = "^[0-9].*"
     //  val filteredFiles = files.filter(_.getName.matches(numRex))
     //  println(filteredFiles)
 
@@ -70,7 +100,6 @@ object HomeworkExtractingRecipes extends App {
     //  val titles = regexForTitles.findAllIn(text).toSeq
     //  titles.foreach(println)
     //  TODO more filtering for false titles meaning titles which do not have ingredients following ingredients
-    //
 
 
     // val destinationFile = "src/resources/Cookbook.txt"
