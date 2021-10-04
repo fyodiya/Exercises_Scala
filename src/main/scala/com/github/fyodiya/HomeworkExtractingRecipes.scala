@@ -11,7 +11,6 @@ import scala.collection.mutable.ListBuffer
 
 //import java.io.FileInputStream
 //import scala.collection.immutable.WrappedString
-//import scala.io.BufferedSource
 
 object HomeworkExtractingRecipes extends App {
 
@@ -34,15 +33,22 @@ object HomeworkExtractingRecipes extends App {
 
   val matchA = "*"
   val matchB = "Illustration"
-//  val linesWithMatch = lines.zipWithIndex.filter(lineTuple => lineTuple._1.contains{(matchA) || (matchB)})
-//  val linesWithMatchA = lines.filterNot(lines.contains(matchA))
+  val matchC = "gutenberg.org"
+  val matchD = "This eBook"
+  val matchE = "Section"
 
   val nlList = text.split("\n").toList
   var newList = new ListBuffer[String]()
   for (x <- nlList) {
     if(x.contains(matchA) == false) {
       if(x.contains(matchB) == false){
-        newList += x
+        if (x.contains(matchC) == false){
+          if (x.contains(matchD) == false) {
+            if (x.contains(matchE) == false) {
+              newList += x
+            }
+          }
+        }
       }
     }
   }
@@ -69,7 +75,7 @@ println(newList)
     }
   }
 //val rdd2 = rdd1.filter(x => !(x._1 contains "."))
-  //FALSE RESULTS (*       )
+
 
     //  val numRex = "^[0-9].*"
     //  val filteredFiles = files.filter(_.getName.matches(numRex))
