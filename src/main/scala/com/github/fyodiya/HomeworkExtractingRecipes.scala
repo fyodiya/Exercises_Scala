@@ -1,8 +1,8 @@
 package com.github.fyodiya
 
-import ujson.IndexedValue.False
+//import ujson.IndexedValue.False
 
-import scala.collection.convert.ImplicitConversions.`collection asJava`
+//import scala.collection.convert.ImplicitConversions.`collection asJava`
 import scala.collection.mutable.ListBuffer
 
 //import java.io.FileInputStream
@@ -103,7 +103,7 @@ println(newList)
 
 
     // val destinationFile = "src/resources/Cookbook.txt"
-    // Utilities.saveLines(destinationFile, Cookbook)
+    // Utilities.saveLines(destinationFile, Cookbook) - saveList
     //println(wordsWithCapitalLetters.mkString("\n"))
     //  Utilities.saveLines("src/resources/Cookbook.txt", titles)
 

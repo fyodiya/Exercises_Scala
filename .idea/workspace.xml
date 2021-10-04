@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercises">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="Homework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExtractStories.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" afterDir="false" />
@@ -181,13 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00012" summary="exercises with reading multiple values">
-      <created>1631469515590</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1631469515590</updated>
     </task>
     <task id="LOCAL-00013" summary="exercises with reading multiple values">
       <created>1631470529513</created>
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633288440463</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Homework">
+      <created>1633356200526</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1633356200527</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,7 +549,6 @@
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
     </ignored-roots>
-    <MESSAGE value="writing filtered lines" />
     <MESSAGE value="writing filtered lines (update)" />
     <MESSAGE value="text file and some changes made to it through some methods" />
     <MESSAGE value="exercise for the weekend (optional)" />
@@ -574,7 +573,8 @@
     <MESSAGE value="parsing text" />
     <MESSAGE value="parsing YAML" />
     <MESSAGE value="exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises" />
+    <MESSAGE value="Homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
