@@ -33,7 +33,7 @@ object ExtractStories extends App {
 
     println(tocLines.mkString("\n"))
 
-    //  //we will split by one or more (+) whitespaces
+    //  we will split by one or more (+) whitespaces
     //  val wordsInLines = lines.map(_.split(" +")) //so for each line we create an array of Strings (words)
     //  wordsInLines.slice(0,25).foreach(arr => println(arr.mkString(":::")))
     //  val wordCountPerLine = wordsInLines.map(_.length)

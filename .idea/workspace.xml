@@ -182,13 +182,6 @@
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
     </task>
-    <task id="LOCAL-00014" summary="changes in utilities">
-      <created>1631471869584</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1631471869584</updated>
-    </task>
     <task id="LOCAL-00015" summary="reading text file into an array of strings">
       <created>1631474453097</created>
       <option name="number" value="00015" />
@@ -525,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633378541310</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Homework">
+      <created>1633380124667</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1633380124667</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -594,6 +594,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="4" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="5" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
