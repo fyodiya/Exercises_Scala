@@ -20,6 +20,7 @@
     <orderEntry type="library" name="sbt: org.ini4j:ini4j:0.5.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang.modules:scala-xml_2.13:2.0.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.13.6:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.xerial:sqlite-jdbc:3.36.0.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.yaml:snakeyaml:1.29:jar" level="project" />
   </component>
 </module>
