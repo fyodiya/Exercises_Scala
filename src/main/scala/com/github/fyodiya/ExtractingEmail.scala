@@ -7,7 +7,7 @@ object ExtractingEmail extends App {
   println(lines.size)
 
   //if e-mail are "hiding", we need more powerful tool for extraction
-  //fully compliant regex for emails is supercomplicated
+  //fully compliant regex for emails is super-complicated
 
   val emailRegex = ".* (\\s+@\\s+\\.\\s+).*".r
   //so we match every character until space then what we want is following:
