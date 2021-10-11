@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="simple game">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="creation of a simple game (initial version, lots of things to improve)">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/FinalAssignment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -181,27 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00025" summary="text file and some changes made to it through some methods">
-      <created>1631818477198</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1631818477198</updated>
-    </task>
-    <task id="LOCAL-00026" summary="exercise for the weekend (optional)">
-      <created>1631818663484</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1631818663484</updated>
-    </task>
-    <task id="LOCAL-00027" summary="creating new case class">
-      <created>1632158040755</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1632158040755</updated>
     </task>
     <task id="LOCAL-00028" summary="reading CSV files">
       <created>1632158054951</created>
@@ -525,7 +505,28 @@
       <option name="project" value="LOCAL" />
       <updated>1633969340023</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="simple game creation">
+      <created>1633969773677</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1633969773677</updated>
+    </task>
+    <task id="LOCAL-00075" summary="creation of a simple game">
+      <created>1633969948369</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1633969948369</updated>
+    </task>
+    <task id="LOCAL-00076" summary="creation of a simple game (initial version, lots of things to improve)">
+      <created>1633970117083</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1633970117083</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -549,9 +550,6 @@
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
     </ignored-roots>
-    <MESSAGE value="CSV file" />
-    <MESSAGE value="extracting data from text files" />
-    <MESSAGE value="exercise with CSV" />
     <MESSAGE value="adding library" />
     <MESSAGE value="reading JSON files" />
     <MESSAGE value="saving file for exercise" />
@@ -574,7 +572,10 @@
     <MESSAGE value="regex for finding email addresses" />
     <MESSAGE value="homework, extracting text" />
     <MESSAGE value="simple game" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple game" />
+    <MESSAGE value="simple game creation" />
+    <MESSAGE value="creation of a simple game" />
+    <MESSAGE value="creation of a simple game (initial version, lots of things to improve)" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation of a simple game (initial version, lots of things to improve)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
