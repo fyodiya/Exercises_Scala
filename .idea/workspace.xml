@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="creation of a simple game (initial version, lots of things to improve)">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseOct11Nim.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/FinalAssignment.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,13 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00028" summary="reading CSV files">
-      <created>1632158054951</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1632158054951</updated>
     </task>
     <task id="LOCAL-00029" summary="CSV file">
       <created>1632158065131</created>
@@ -526,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633970117083</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="creation of a simple game (initial version, lots of things to improve)">
+      <created>1633972538291</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1633972538291</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
