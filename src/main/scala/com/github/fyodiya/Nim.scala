@@ -29,8 +29,7 @@ object Nim extends App {
     //change your state
 
   }
-
-  println("Game has ended.")
-
+  val winner = if (isPlayerATurn) playerA else playerB
+  println(s"Game has ended. Congratulations, $playerA! Better luck next time, $playerB.")
 
 }
