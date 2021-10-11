@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="regex for finding email addresses">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="simple game">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/FinalAssignment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/DBTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/DBTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,20 +181,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00023" summary="text file and some changes made to it through some methods">
-      <created>1631814252317</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1631814252317</updated>
-    </task>
-    <task id="LOCAL-00024" summary="text file and some changes made to it through some methods">
-      <created>1631816462203</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1631816462203</updated>
     </task>
     <task id="LOCAL-00025" summary="text file and some changes made to it through some methods">
       <created>1631818477198</created>
@@ -528,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1633633079135</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="homework, extracting text">
+      <created>1633969328801</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1633969328802</updated>
+    </task>
+    <task id="LOCAL-00073" summary="simple game">
+      <created>1633969340023</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1633969340023</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -552,8 +549,6 @@
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
     </ignored-roots>
-    <MESSAGE value="creating new case class" />
-    <MESSAGE value="reading CSV files" />
     <MESSAGE value="CSV file" />
     <MESSAGE value="extracting data from text files" />
     <MESSAGE value="exercise with CSV" />
@@ -577,7 +572,9 @@
     <MESSAGE value="exercises with SQL queries" />
     <MESSAGE value="randomizing list into pairs" />
     <MESSAGE value="regex for finding email addresses" />
-    <option name="LAST_COMMIT_MESSAGE" value="regex for finding email addresses" />
+    <MESSAGE value="homework, extracting text" />
+    <MESSAGE value="simple game" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
