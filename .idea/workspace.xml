@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="exercises with SQL queries">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="regex for finding email addresses">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/FinalAssignment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/Nim.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/DBTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/DBTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" afterDir="false" />
@@ -98,9 +100,35 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DBTest">
+  <component name="RunManager" selected="Application.Nim">
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.DBTest" />
+      <module name="ScalaPlayground2021Aug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.fyodiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseOct7SQL" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseOct7SQL" />
+      <module name="ScalaPlayground2021Aug" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.fyodiya.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExerciseOctober7SQL" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ExerciseOctober7SQL" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -125,34 +153,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadingYAML" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.ReadingYAML" />
-      <module name="ScalaPlayground2021Aug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.fyodiya.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XMLReading" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.XMLReading" />
-      <module name="ScalaPlayground2021Aug" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.fyodiya.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="XMLWork" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.XMLWork" />
+    <configuration name="Nim" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.Nim" />
       <module name="ScalaPlayground2021Aug" />
       <extension name="coverage">
         <pattern>
@@ -166,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DBTest" />
+        <item itemvalue="Application.Nim" />
         <item itemvalue="Application.HomeworkExtractingRecipes" />
-        <item itemvalue="Application.ReadingYAML" />
-        <item itemvalue="Application.XMLReading" />
-        <item itemvalue="Application.XMLWork" />
+        <item itemvalue="Application.ExerciseOctober7SQL" />
+        <item itemvalue="Application.ExerciseOct7SQL" />
+        <item itemvalue="Application.DBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,41 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00018" summary="exercises">
-      <created>1631556498842</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1631556498842</updated>
-    </task>
-    <task id="LOCAL-00019" summary="exercises">
-      <created>1631560069571</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1631560069571</updated>
-    </task>
-    <task id="LOCAL-00020" summary="exercises">
-      <created>1631649018080</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1631649018080</updated>
-    </task>
-    <task id="LOCAL-00021" summary="text file and some changes made to it through some methods">
-      <created>1631649046119</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1631649046119</updated>
-    </task>
-    <task id="LOCAL-00022" summary="text file and some changes made to it through some methods">
-      <created>1631814183121</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1631814183121</updated>
     </task>
     <task id="LOCAL-00023" summary="text file and some changes made to it through some methods">
       <created>1631814252317</created>
@@ -526,7 +493,42 @@
       <option name="project" value="LOCAL" />
       <updated>1633625351048</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="exercises with SQL queries">
+      <created>1633626400971</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1633626400971</updated>
+    </task>
+    <task id="LOCAL-00068" summary="exercises with SQL queries">
+      <created>1633626408032</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1633626408032</updated>
+    </task>
+    <task id="LOCAL-00069" summary="randomizing list into pairs">
+      <created>1633631259233</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1633631259233</updated>
+    </task>
+    <task id="LOCAL-00070" summary="regex for finding email addresses">
+      <created>1633633065138</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1633633065138</updated>
+    </task>
+    <task id="LOCAL-00071" summary="regex for finding email addresses">
+      <created>1633633079135</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1633633079135</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,8 +552,6 @@
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
     </ignored-roots>
-    <MESSAGE value="text file and some changes made to it through some methods" />
-    <MESSAGE value="exercise for the weekend (optional)" />
     <MESSAGE value="creating new case class" />
     <MESSAGE value="reading CSV files" />
     <MESSAGE value="CSV file" />
@@ -575,7 +575,9 @@
     <MESSAGE value="exercises" />
     <MESSAGE value="Homework" />
     <MESSAGE value="exercises with SQL queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="exercises with SQL queries" />
+    <MESSAGE value="randomizing list into pairs" />
+    <MESSAGE value="regex for finding email addresses" />
+    <option name="LAST_COMMIT_MESSAGE" value="regex for finding email addresses" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

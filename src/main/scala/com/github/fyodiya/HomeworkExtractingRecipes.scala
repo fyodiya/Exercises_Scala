@@ -1,6 +1,5 @@
 package com.github.fyodiya
 
-import scala.Console.println
 import scala.collection.mutable.ListBuffer
 
 object HomeworkExtractingRecipes extends App {
@@ -44,37 +43,74 @@ object HomeworkExtractingRecipes extends App {
 //    println(sum)
 //  }
 
-  val filteredCookbook = newList.slice(1058, 2909)
+  val filteredCookbook = newList.slice(1058, 2910)
 //  filteredCookbook.foreach(println)
-  val CookbookList = filteredCookbook.toList
-  val match1 = "boil"
-  val match2 = "turn"
-  val match3 = "them"
-  val match4 = "add"
-  val match5 = "together"
-  val filteredCookbookWithoutActions = new ListBuffer[String]()
-  for (x <- CookbookList) {
-    if (x.contains(match1) == false) {
-      {
-        if (x.contains(match2) == false) {
-          {
-            if (x.contains(match3) == false) {
-              {
-                if (x.contains(match4) == false) {
-                  {
-                    if (x.contains(match5) == false) {
-                      filteredCookbookWithoutActions += x
-                    }
-                  }
-                }
-              }
+
+//  val cookbookWithParagraphs = filteredCookbook.mkString
+//  val paragraph = "(\r\r)".r
+//  val regexParagraph = "\\r\\n".r
+////  val cookbookFinalVersion = new ListBuffer[String]()
+////  val paragraphsErased = filteredCookbook.filterNot(paragraph)
+////  val cookbookFinal = (regexParagraph replaceAllIn cookbookWithParagraphs)
+//  def replacingParagraphs(target: String, replacement: String): String = {
+//    (cookbookWithParagraphs).replace(("(\r\r)"), "")
+//  }
+//  println(cookbookWithParagraphs)
+
+  var rowCount1 = 0
+  var rowCount2 = 0
+  val customRegex = "\\b[A-Z]+(?:\\s+[A-Z]+)*\\b".r
+  var finalList = new ListBuffer[String]()
+
+  def checkChar(xval : String): Unit = {
+    val charArr = xval.toCharArray()
+    var c = ListBuffer()
+    for (el <- charArr) {
+      if (el.isUpper || el == " ") {
+        c += el
+      }
+      println(c)
+    }
+    var result : Boolean = false
+    println(c.size)
+    println(charArr.size)
+    if (c.size == (charArr.size)){
+      result = true
+    } else { result = false }
+
+    return result
+
+  }
+  for (x <- filteredCookbook) {
+      rowCount1 = rowCount1 + 1
+      var checkCharx = checkChar(x)
+      if (x.contains("    ") == true) {
+        finalList += x
+//        println(x)
+      }
+
+        if (checkCharx == true) {
+        println(x)
+        for (xx <- filteredCookbook) {
+          rowCount2 = (rowCount2 + 1)
+          var checkCharxx = checkChar(xx)
+          println(checkCharxx)
+          if ((rowCount2 == (rowCount1 + 1)) == true) {
+            if (checkCharxx == true) {
+              println("LIELIE BURTI IR")
+            } else {
+              finalList += xx
             }
           }
         }
       }
-    }
-  }
-      filteredCookbookWithoutActions.foreach(println)
+      }
+    finalList.foreach(println)
+
+
+
+      ////  val regexParagraph = {"\\r\\n){2,}"}.r
+      ////https://alvinalexander.com/source-code/scala-get-first-paragraph-from-text-string/
 
       //  val matchText = "INDEX TO RECIPES"
       //  val linesNumberWithMatch = newList.zipWithIndex.filter(lineTuple => lineTuple._1.contains(matchText) )
@@ -141,5 +177,4 @@ object HomeworkExtractingRecipes extends App {
       //println(wordsWithCapitalLetters.mkString("\n"))
       //  Utilities.saveLines("src/resources/Cookbook.txt", titles)
 
-
-}
+    }

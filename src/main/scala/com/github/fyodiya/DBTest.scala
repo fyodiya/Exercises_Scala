@@ -74,4 +74,6 @@ object DBTest extends App {
     print(newResultSet.getString(1))
     println(newResultSet.getString(2))
   }
+
+
 }
