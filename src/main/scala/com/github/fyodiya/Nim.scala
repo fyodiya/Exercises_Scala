@@ -30,6 +30,7 @@ object Nim extends App {
 
   }
   val winner = if (isPlayerATurn) playerA else playerB
-  println(s"Game has ended. Congratulations, $playerA! Better luck next time, $playerB.")
+  val loser = if (isPlayerATurn) playerB else playerA
+  println(s"Game has ended. Congratulations, $winner! Better luck next time, $loser.")
 
 }
