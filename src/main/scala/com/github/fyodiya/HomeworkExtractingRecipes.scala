@@ -78,7 +78,6 @@ object HomeworkExtractingRecipes extends App {
     finalList.foreach(println)
 
   val finalCookbook = finalList.toArray
-
       val destinationFile = "src/resources/Cookbook.txt"
       Utilities.saveLines(destinationFile, finalCookbook)
       println(finalList.mkString("\n"))
