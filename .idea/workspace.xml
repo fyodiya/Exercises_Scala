@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="creation of a simple game. with 3 computer modes">
+    <list default="true" id="b23594b3-7993-4e44-b640-83c838772400" name="Changes" comment="more complicated game">
       <change afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/FinalAssignment.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseOct11Nim.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/ExerciseOct11Nim.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/github/fyodiya/HomeworkExtractingRecipes.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -98,7 +101,7 @@
       <recent name="com.github.fyodiya" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Nim">
+  <component name="RunManager" selected="Application.HomeworkExtractingRecipes">
     <configuration name="DBTest" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.github.fyodiya.DBTest" />
       <module name="ScalaPlayground2021Aug" />
@@ -166,8 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Nim" />
         <item itemvalue="Application.HomeworkExtractingRecipes" />
+        <item itemvalue="Application.Nim" />
         <item itemvalue="Application.ExerciseOctober7SQL" />
         <item itemvalue="Application.ExerciseOct7SQL" />
         <item itemvalue="Application.DBTest" />
@@ -182,13 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628792688710</updated>
-    </task>
-    <task id="LOCAL-00030" summary="extracting data from text files">
-      <created>1632158081497</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1632158081497</updated>
     </task>
     <task id="LOCAL-00031" summary="exercise with CSV">
       <created>1632158093219</created>
@@ -526,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633976610317</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="more complicated game">
+      <created>1633979045857</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1633979045857</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -550,7 +553,6 @@
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/PractiseForScalaClass" />
       <path value="$PROJECT_DIR$/src/test/ScalaPlaygoundSecondVersion/TemperatureConverter" />
     </ignored-roots>
-    <MESSAGE value="reading JSON files" />
     <MESSAGE value="saving file for exercise" />
     <MESSAGE value="some small changes" />
     <MESSAGE value="editing code" />
@@ -575,7 +577,8 @@
     <MESSAGE value="creation of a simple game" />
     <MESSAGE value="creation of a simple game (initial version, lots of things to improve)" />
     <MESSAGE value="creation of a simple game. with 3 computer modes" />
-    <option name="LAST_COMMIT_MESSAGE" value="creation of a simple game. with 3 computer modes" />
+    <MESSAGE value="more complicated game" />
+    <option name="LAST_COMMIT_MESSAGE" value="more complicated game" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
